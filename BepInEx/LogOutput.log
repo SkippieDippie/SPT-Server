@@ -1,0 +1,1294 @@
+[Message:   BepInEx] BepInEx 5.4.22.0 - EscapeFromTarkov (29.07.2025 21:38:31)
+[Info   :   BepInEx] Running under Unity v0.16.1.3539
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [IcyClawz.CustomInteractions.Prepatch 1.7.0.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [spt-prepatch 3.11.3.0]
+[Info   :   BepInEx] 3 patcher plugins loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Info   :   BepInEx] Patching [Assembly-CSharp] with [IcyClawz.CustomInteractions.Prepatch]
+[Info   :   BepInEx] Patching [Assembly-CSharp] with [SPT.PrePatch.SPTPrePatcher]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 13 plugins to load
+[Info   :   BepInEx] Loading [Configuration Manager 18.0.1]
+[Info   :   BepInEx] Loading [SPT.Core 3.11.3]
+[Info   :  SPT.Core] Loading: SPT.Core
+[Info   :ModulePatch] Enabled patch ConsistencySinglePatch
+[Info   :ModulePatch] Enabled patch ConsistencyMultiPatch
+[Info   :ModulePatch] Enabled patch GameValidationPatch
+[Info   :ModulePatch] Enabled patch BattlEyePatch
+[Info   :ModulePatch] Enabled patch SslCertificatePatch
+[Info   :ModulePatch] Enabled patch UnityWebRequestPatch
+[Info   :ModulePatch] Enabled patch WebSocketSslValidationPatch
+[Info   :  SPT.Core] Completed: SPT.Core
+[Info   :   BepInEx] Loading [DrakiaXYZ-Waypoints 1.7.1]
+[Info   :ModulePatch] Enabled patch DebugPatch
+[Info   :ModulePatch] Enabled patch WaypointPatch
+[Info   :ModulePatch] Enabled patch DoorLinkPatch
+[Info   :ModulePatch] Enabled patch DoorLinkStateChangePatch
+[Info   :ModulePatch] Enabled patch SwitchDoorBlockerPatch
+[Info   :ModulePatch] Enabled patch ExfilDoorBlockerPatch
+[Info   :ModulePatch] Enabled patch FindPathPatch
+[Info   :   BepInEx] Loading [DrakiaXYZ-BigBrain 1.3.2]
+[Info   :DrakiaXYZ-BigBrain] Loading: DrakiaXYZ-BigBrain
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivatePatch
+[Info   :ModulePatch] Enabled patch BotBrainCreateLogicNodePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainUpdatePatch
+[Info   :ModulePatch] Enabled patch BotAgentUpdatePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivateLayerPatch
+[Info   :ModulePatch] Enabled patch BotStandartBotBrainActivatePatch
+[Info   :DrakiaXYZ-BigBrain] Completed: DrakiaXYZ-BigBrain
+[Info   :   BepInEx] Loading [DanW-QuestingBots 0.10.2]
+[Info   :DanW-QuestingBots] Loading QuestingBots...
+[Info   :DanW-QuestingBots] Loading QuestingBots...getting configuration data...
+[Info   :RequestHandler] [REQUEST]: /QuestingBots/GetConfig
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /QuestingBots/GetConfig
+[Info   :ModulePatch] Enabled patch MenuShowPatch
+[Info   :DanW-QuestingBots] Loading QuestingBots...enabling patches...
+[Info   :ModulePatch] Enabled patch TarkovInitPatch
+[Info   :ModulePatch] Enabled patch BotsControllerSetSettingsPatch
+[Info   :ModulePatch] Enabled patch BotsControllerStopPatch
+[Info   :ModulePatch] Enabled patch BotOwnerBrainActivatePatch
+[Info   :ModulePatch] Enabled patch IsFollowerSuitableForBossPatch
+[Info   :ModulePatch] Enabled patch OnBeenKilledByAggressorPatch
+[Info   :ModulePatch] Enabled patch AirdropLandPatch
+[Info   :DanW-QuestingBots] Found type for ServerRequestPatch: Class307
+[Info   :ModulePatch] Enabled patch ServerRequestPatch
+[Info   :ModulePatch] Enabled patch CheckLookEnemyPatch
+[Info   :ModulePatch] Enabled patch ReturnToPoolPatch
+[Info   :ModulePatch] Enabled patch BotOwnerSprintPatch
+[Info   :DanW-QuestingBots] Found method for MineDirectionalShouldExplodePatch: method_1
+[Info   :ModulePatch] Enabled patch MineDirectionalShouldExplodePatch
+[Info   :ModulePatch] Enabled patch LighthouseTraderZoneAwakePatch
+[Info   :DanW-QuestingBots] Found method for LighthouseTraderZonePlayerAttackPatch: method_7
+[Info   :ModulePatch] Enabled patch LighthouseTraderZonePlayerAttackPatch
+[Info   :ModulePatch] Enabled patch ProcessSourceOcclusionPatch
+[Info   :ModulePatch] Enabled patch GameStartPatch
+[Info   :ModulePatch] Enabled patch TimeHasComeScreenClassChangeStatusPatch
+[Info   :ModulePatch] Enabled patch ActivateBossesByWavePatch
+[Info   :ModulePatch] Enabled patch AddEnemyPatch
+[Info   :DanW-QuestingBots] Found method for TryLoadBotsProfilesOnStartPatch: method_2
+[Info   :ModulePatch] Enabled patch TryLoadBotsProfilesOnStartPatch
+[Info   :DanW-QuestingBots] Found method for SetNewBossPatch: method_0
+[Info   :ModulePatch] Enabled patch SetNewBossPatch
+[Info   :ModulePatch] Enabled patch GetAllBossPlayersPatch
+[Info   :ModulePatch] Enabled patch GetListByZonePatch
+[Info   :DanW-QuestingBots] Found type for ExceptAIPatch: GClass3371
+[Info   :ModulePatch] Enabled patch ExceptAIPatch
+[Info   :ModulePatch] Enabled patch BotDiedPatch
+[Info   :ModulePatch] Enabled patch TryToSpawnInZoneAndDelayPatch
+[Info   :DanW-QuestingBots] Found type for SpawnPointIsValidPatch: GClass3372
+[Info   :ModulePatch] Enabled patch SpawnPointIsValidPatch
+[Info   :ModulePatch] Enabled patch TrySpawnFreeAndDelayPatch
+[Info   :DanW-QuestingBots] Found method for NonWavesSpawnScenarioCreatePatch: smethod_0
+[Info   :ModulePatch] Enabled patch NonWavesSpawnScenarioCreatePatch
+[Info   :ModulePatch] Enabled patch BotsControllerStopPatch
+[Info   :ModulePatch] Enabled patch BotsGroupIsPlayerEnemyPatch
+[Info   :DanW-QuestingBots] Enabled PMC bot generation
+[Info   :DanW-QuestingBots] Enabled PScav bot generation
+[Info   :DanW-QuestingBots] Found type for ServerRequestPatch: GClass658
+[Info   :ModulePatch] Enabled patch PScavProfilePatch
+[Info   :DanW-QuestingBots] Loading QuestingBots...done.
+[Info   :   BepInEx] Loading [SPT.Custom 3.11.3]
+[Info   :SPT.Custom] Loading: SPT.Custom
+[Info   :ModulePatch] Enabled patch EasyAssetsPatch
+[Info   :ModulePatch] Enabled patch EasyBundlePatch
+[Info   :ModulePatch] Enabled patch DisableNonHalloweenExitsDuringEventPatch
+[Info   :ModulePatch] Enabled patch SendFleaListingTaxAmountToServerPatch
+[Info   :ModulePatch] Enabled patch AddTraitorScavsPatch
+[Info   :RequestHandler] [REQUEST]: /singleplayer/bosstypes
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/bosstypes
+[Info   :ModulePatch] Enabled patch CustomAiPatch
+[Info   :ModulePatch] Enabled patch SaveSettingsToSptFolderPatch
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsSetInt
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsSetFloat
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsSetString
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsGetInt
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsGetFloat
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsGetString
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsHasKey
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsDeleteKey
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsDeleteAll
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsSave
+[Info   :ModulePatch] Enabled patch QTEPatch
+[Info   :ModulePatch] Enabled patch RedirectClientImageRequestsPatch
+[Info   :ModulePatch] Enabled patch DisableGameModeAdjustButtonPatch
+[Info   :ModulePatch] Enabled patch FixPmcSpawnParamsNullErrorPatch
+[Info   :ModulePatch] Enabled patch SetPreRaidSettingsScreenDefaultsPatch
+[Info   :ModulePatch] Enabled patch CoreDifficultyPatch
+[Info   :ModulePatch] Enabled patch BotDifficultyPatch
+[Info   :ModulePatch] Enabled patch VersionLabelPatch
+[Info   :ModulePatch] Enabled patch FixScavWarNullErrorWithMarkOfUnknownPatch
+[Info   :ModulePatch] Enabled patch MergeScavPmcQuestsOnInventoryLoadPatch
+[Info   :ModulePatch] Enabled patch CopyPmcQuestsAndWishlistToPlayerScavPatch
+[Info   :ModulePatch] Enabled patch FixBossesHavingNoFollowersOnMediumAiAmount
+[Info   :ModulePatch] Enabled patch FixAirdropCrashPatch
+[Info   :ModulePatch] Enabled patch FixAirdropFlareDisposePatch
+[Info   :ModulePatch] Enabled patch AllowAirdropsInPvEPatch
+[Info   :ModulePatch] Enabled patch MemoryCollectionPatch
+[Info   :ModulePatch] Enabled patch BotsControllerInitPatch
+[Info   :ModulePatch] Enabled patch BotsEventsControllerActivatePatch
+[Info   :ModulePatch] Enabled patch EnablePrestigeTabPatch
+[Info   :ModulePatch] Enabled patch MatchStartServerLocationPatch
+[Info   :ModulePatch] Enabled patch SpawnPointAIPlayerBotLimitPatch
+[Info   :ModulePatch] Enabled patch SpawnPointNearestPlayerAIPatch
+[Info   :SPT.Custom] Completed: SPT.Custom
+[Info   :   BepInEx] Loading [SPT.Singleplayer 3.11.3]
+[Info   :SPT.Singleplayer] Loading: SPT.SinglePlayer
+[Info   :ModulePatch] Enabled patch TinnitusFixPatch
+[Info   :ModulePatch] Enabled patch EmptyInfilFixPatch
+[Info   :ModulePatch] Enabled patch OverrideMaxAiAliveInRaidValuePatch
+[Info   :ModulePatch] Enabled patch FixPostScavRaidXpShowingZeroPatch
+[Info   :ModulePatch] Enabled patch DisablePMCExtractsForScavsPatch
+[Info   :ModulePatch] Enabled patch ScavExfilPatch
+[Info   :ModulePatch] Enabled patch ScavProfileLoadPatch
+[Info   :ModulePatch] Enabled patch ScavPrefabLoadPatch
+[Info   :ModulePatch] Enabled patch DisableReadyLocationReadyPatch
+[Info   :ModulePatch] Enabled patch LoadOfflineRaidScreenPatch
+[Info   :ModulePatch] Enabled patch AmmoUsedCounterPatch
+[Info   :ModulePatch] Enabled patch PluginErrorNotifierPatch
+[Info   :ModulePatch] Enabled patch MapReadyButtonPatch
+[Info   :ModulePatch] Enabled patch RemoveUsedBotProfilePatch
+[Info   :ModulePatch] Enabled patch ScavLateStartPatch
+[Info   :ModulePatch] Enabled patch ScavSellAllPriceStorePatch
+[Info   :ModulePatch] Enabled patch ScavSellAllRequestPatch
+[Info   :ModulePatch] Enabled patch ScavRepAdjustmentPatch
+[Info   :ModulePatch] Enabled patch DisableWelcomeToPVEModeMessagePatch
+[Info   :ModulePatch] Enabled patch DisableMatchmakerPlayerPreviewButtonsPatch
+[Info   :ModulePatch] Enabled patch EnableRefForPVEPatch
+[Info   :ModulePatch] Enabled patch EnableRefIntermScreenPatch
+[Info   :ModulePatch] Enabled patch EnablePlayerScavPatch
+[Info   :ModulePatch] Enabled patch ScavFoundInRaidPatch
+[Info   :ModulePatch] Enabled patch GetProfileAtEndOfRaidPatch
+[Info   :ModulePatch] Enabled patch SendPlayerScavProfileToServerAfterRaidPatch
+[Info   :ModulePatch] Enabled patch RemoveStashUpgradeLabelPatch
+[Info   :ModulePatch] Enabled patch RemoveClothingItemExternalObtainLabelPatch
+[Info   :ModulePatch] Enabled patch ForceRaidModeToLocalPatch
+[Info   :ModulePatch] Enabled patch ScavIsPlayerEnemyPatch
+[Info   :ModulePatch] Enabled patch FirearmControllerShowIncompatibleNotificationClass
+[Info   :ModulePatch] Enabled patch FixKeyAlreadyExistsErrorOnAchievementPatch
+[Info   :ModulePatch] Enabled patch ScavPrestigeFixPatch
+[Info   :ModulePatch] Enabled patch DisableDevMaskCheckPatch
+[Info   :ModulePatch] Enabled patch RemoveStopwatchAllocationsEveryBotFramePatch
+[Info   :ModulePatch] Enabled patch RemoveStopwatchAllocationsEveryCoverPointFramePatch
+[Info   :ModulePatch] Enabled patch DisableUseBSGServersCheckbox
+[Info   :ModulePatch] Enabled patch PmcBotSidePatch
+[Info   :ModulePatch] Enabled patch QuestAchievementRewardInRaidPatch
+[Info   :ModulePatch] Enabled patch FixUnityWarningSpamFromAirdropsPatch
+[Info   :SPT.Singleplayer] Completed: SPT.SinglePlayer
+[Info   :   BepInEx] Loading [SPT.Debugging 3.11.3]
+[Info   :SPT.Debugging] Loading: SPT.Debugging
+[Info   :ModulePatch] Enabled patch EndRaidDebug
+[Info   :ModulePatch] Enabled patch LoggerClassLogPatch
+[Info   :ModulePatch] Enabled patch ReloadClientPatch
+[Info   :ModulePatch] Enabled patch EnableDebugCommandsPatch
+[Info   :SPT.Debugging] Completed: SPT.Debugging
+[Info   :   BepInEx] Loading [Fika.Core 1.2.8]
+[Info   : Fika.Core] Received NatPunchServer config from server:
+[Info   : Fika.Core] Enable: False
+[Info   : Fika.Core] Port: 6790
+[Info   : Fika.Core] NatIntroduceAmount: 1
+[Info   : FikaPatch] Enabled patch FikaVersionLabel_Patch
+[Info   : FikaPatch] Enabled patch DisableMatchSettingsReadyButton_Patch
+[Info   : FikaPatch] Enabled patch DisableReadyButton_Patch
+[Info   : FikaPatch] Enabled patch AchievementsScreen_Show_Patch
+[Info   : FikaPatch] Enabled patch AchievementView_Show_Patch
+[Info   : FikaPatch] Enabled patch ChangeGameModeButton_Patch
+[Info   : FikaPatch] Enabled patch CoopSettingsWindow_Show_Patch
+[Info   : FikaPatch] Enabled patch DisableInsuranceReadyButton_Patch
+[Info   : FikaPatch] Enabled patch DisconnectButton_Patch
+[Info   : FikaPatch] Enabled patch MainMenuControllerClass_method_52_Patch
+[Info   : FikaPatch] Enabled patch GClass3581_ShowAction_Patch
+[Info   : FikaPatch] Enabled patch HideoutPlayerOwner_SetPointOfView_Patch
+[Info   : FikaPatch] Enabled patch MenuScreen_Awake_Patch
+[Info   : FikaPatch] Enabled patch MenuScreen_method_9_Patch
+[Info   : FikaPatch] Enabled patch RagfairScreen_Show_Patch
+[Info   : FikaPatch] Enabled patch MatchmakerOfflineRaidScreen_Show_Patch
+[Info   : FikaPatch] Enabled patch MatchmakerOfflineRaidScreen_Close_Patch
+[Info   : FikaPatch] Enabled patch MatchmakerPlayerControllerClass_GetCoopBlockReason_Patch
+[Info   : FikaPatch] Enabled patch MenuTaskBar_Patch
+[Info   : FikaPatch] Enabled patch PartyInfoPanel_Show_Patch
+[Info   : FikaPatch] Enabled patch RaidSettingsWindow_method_8_Patch
+[Info   : FikaPatch] Enabled patch RaidSettingsWindow_Show_Patch
+[Info   : FikaPatch] Enabled patch SessionResultExitStatus_Show_Patch
+[Info   : FikaPatch] Enabled patch TarkovApplication_method_18_Patch
+[Info   : FikaPatch] Enabled patch MatchmakerAcceptScreen_Awake_Patch
+[Info   : FikaPatch] Enabled patch MatchmakerAcceptScreen_Show_Patch
+[Info   : FikaPatch] Enabled patch AbstractGame_InRaid_Patch
+[Info   : FikaPatch] Enabled patch AIPlaceLogicPartisan_Dispose_Patch
+[Info   : FikaPatch] Enabled patch GClass2461_UpdateOfflineClientLogic_Patch
+[Info   : FikaPatch] Enabled patch GClass2462_UpdateOfflineClientLogic_Patch
+[Info   : FikaPatch] Enabled patch SyncObjectProcessorClass_GetSyncObjectStrategyByType_Patch
+[Info   : FikaPatch] Enabled patch GClass1395_Constructor_Patch
+[Info   : FikaPatch] Enabled patch GClass622_method_0_Patch
+[Info   : FikaPatch] Enabled patch GClass622_method_28_Patch
+[Info   : FikaPatch] Enabled patch BotCacher_Patch
+[Info   : FikaPatch] Enabled patch BotReload_method_1_Patch
+[Info   : FikaPatch] Enabled patch BTRControllerClass_Init_Patch
+[Info   : FikaPatch] Enabled patch BTRVehicle_method_38_Patch
+[Info   : FikaPatch] Enabled patch BTRView_GoIn_Patch
+[Info   : FikaPatch] Enabled patch BTRView_GoOut_Patch
+[Info   : FikaPatch] Enabled patch BTRView_SyncViewFromServer_Patch
+[Info   : FikaPatch] Enabled patch Player_UpdateBtrTraderServiceData_Patch
+[Info   : FikaPatch] Enabled patch WeaponManagerClass_method_13_Patch
+[Info   : FikaPatch] Enabled patch WeaponManagerClass_ValidateScopeSmoothZoomUpdate_Patch
+[Info   : FikaPatch] Enabled patch Class1391_ReloadBackendLocale_Patch
+[Info   : FikaPatch] Enabled patch GameWorld_Create_Patch
+[Info   : FikaPatch] Enabled patch GameWorld_ThrowItem_Patch
+[Info   : FikaPatch] Enabled patch GClass1675_method_9_Patch
+[Info   : FikaPatch] Enabled patch GClass2054_method_0_Patch
+[Info   : FikaPatch] Enabled patch GClass3371_ExceptAI_Patch
+[Info   : FikaPatch] Enabled patch GrenadeClass_Init_Patch
+[Info   : FikaPatch] Enabled patch BufferInnerZone_ChangePlayerAccessStatus_Patch
+[Info   : FikaPatch] Enabled patch BufferInnerZone_ChangeZoneInteractionAvailability_Patch
+[Info   : FikaPatch] Enabled patch BufferZoneControllerClass_method_1_Patch
+[Info   : FikaPatch] Enabled patch BufferZoneControllerClass_SetPlayerInZoneStatus_Patch
+[Info   : FikaPatch] Enabled patch BaseLocalGame_method_13_Patch
+[Info   : FikaPatch] Enabled patch NonWaveSpawnScenario_Patch
+[Info   : FikaPatch] Enabled patch TarkovApplication_LocalGameCreator_Patch
+[Info   : FikaPatch] Enabled patch TarkovApplication_LocalGamePreparer_Patch
+[Info   : FikaPatch] Enabled patch WaveSpawnScenario_Patch
+[Info   : FikaPatch] Enabled patch MineDirectional_OnTriggerEnter_Patch
+[Info   : FikaPatch] Enabled patch Minefield_method_2_Patch
+[Info   : FikaPatch] Enabled patch GetProfileAtEndOfRaidPatch_Override
+[Info   : FikaPatch] Enabled patch FixSavageInventoryScreenPatch_Override
+[Info   : FikaPatch] Enabled patch OfflineRaidSettingsMenuPatch_Override
+[Info   : FikaPatch] Enabled patch ScavProfileLoad_Override
+[Info   : FikaPatch] Enabled patch BodyPartCollider_SetUpPlayer_Patch
+[Info   : FikaPatch] Enabled patch Player_Hide_Patch
+[Info   : FikaPatch] Enabled patch Player_ManageAggressor_Patch
+[Info   : FikaPatch] Enabled patch Player_OnDead_Patch
+[Info   : FikaPatch] Enabled patch Player_SetDogtagInfo_Patch
+[Info   : FikaPatch] Enabled patch Player_SpawnInHands_Patch
+[Info   : FikaPatch] Enabled patch TransitControllerAbstractClass_Exist_Patch
+[Info   : FikaPatch] Enabled patch TripwireSynchronizableObject_method_11_Patch
+[Info   : FikaPatch] Enabled patch TripwireSynchronizableObject_method_6_Patch
+[Info   : FikaPatch] Enabled patch BasicMicrophoneCapture_UpdateSubscribers_Transpiler
+[Info   : FikaPatch] Enabled patch DissonanceComms_Start_Patch
+[Info   : FikaPatch] Enabled patch Player_IDissonancePlayerType_Patch
+[Info   : FikaPatch] Enabled patch Player_HasMarkOfUnknown_Patch
+[Info   : FikaPatch] Enabled patch OpticRetrice_UpdateTransform_Patch
+[Info   : FikaPatch] Enabled patch PlayerCameraController_LateUpdate_Transpiler
+[Info   : FikaPatch] Enabled patch DeathFade_Patch
+[Info   : FikaPatch] Enabled patch PlayEndGameSound_Patch
+[Info   : FikaPatch] Enabled patch PlayUISound_Patch
+[Info   : FikaPatch] Enabled patch BTRSide_AddPassenger_Patch
+[Info   : FikaPatch] Enabled patch BTRSide_RemovePassenger_Patch
+[Info   : FikaPatch] Enabled patch BTRSide_method_9_Patch
+[Info   : FikaPatch] Enabled patch LighthouseTraderZone_AddPlayer_Patch
+[Info   : FikaPatch] Enabled patch LighthouseTraderZone_RemovePlayer_Patch
+[Info   : FikaPatch] Enabled patch LighthouseTraderZone_Awake_Patch
+[Info   : FikaPatch] Enabled patch GClass436_Activate_Patch
+[Info   :Fika.Core PatchManager] Enabled 91 patches
+[Info   :ModulePatch] Disabled patch VersionLabelPatch
+[Info   :ModulePatch] Disabled patch AmmoUsedCounterPatch
+[Info   :ModulePatch] Disabled patch ArmorDamageCounterPatch
+[Info   :ModulePatch] Disabled patch ScavRepAdjustmentPatch
+[Info   :ModulePatch] Disabled patch GetProfileAtEndOfRaidPatch
+[Info   :ModulePatch] Disabled patch ScavExfilPatch
+[Info   :ModulePatch] Disabled patch SendPlayerScavProfileToServerAfterRaidPatch
+[Info   :ModulePatch] Disabled patch MatchStartServerLocationPatch
+[Info   :ModulePatch] Disabled patch QuestAchievementRewardInRaidPatch
+[Info   : Fika.Core] Received config from server:
+[Info   : Fika.Core] Fika is loaded! Running version: 1.2.8.0
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/difficulty/core/core
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/difficulty/core/core
+[Info   : FikaPatch] Enabled patch ItemContext_Patch
+[Info   :   BepInEx] Loading [IcyClawz.CustomInteractions 1.7.0]
+[Info   :ModulePatch] Enabled patch ItemUiContextPatch
+[Info   :ModulePatch] Enabled patch InteractionButtonsContainerPatch
+[Info   :   BepInEx] Loading [LootingBots 1.5.2]
+[Info   :ModulePatch] Enabled patch CleanCacheOnRaidEnd
+[Info   :ModulePatch] Enabled patch ClearCacheOnDeath
+[Info   :ModulePatch] Enabled patch EnableWeaponSwitching
+[Info   :ModulePatch] Enabled patch InteractPatch
+[Info   :ModulePatch] Enabled patch InventoryClosePatch
+[Info   :ModulePatch] Enabled patch RemoveComponent
+[Info   :   BepInEx] Loading [SAIN 4.1.1]
+[Info   :ModulePatch] Enabled patch WorldTickPatch
+[Info   :ModulePatch] Enabled patch PlayerLateUpdatePatch
+[Info   :ModulePatch] Enabled patch AddBotComponentPatch
+[Info   :ModulePatch] Enabled patch ActivateBotComponentPatch
+[Info   :ModulePatch] Enabled patch AddGameWorldPatch
+[Info   :ModulePatch] Enabled patch GetBotController
+[Info   :ModulePatch] Enabled patch BotOwnerActivatePatch
+[Info   :ModulePatch] Enabled patch SetEnvironmentPatch
+[Info   :ModulePatch] Enabled patch SetPanicPointPatch
+[Info   :ModulePatch] Enabled patch AddPointToSearchPatch
+[Info   :ModulePatch] Enabled patch TurnDamnLightOffPatch
+[Info   :ModulePatch] Enabled patch GrenadeThrownActionPatch
+[Info   :ModulePatch] Enabled patch GrenadeExplosionActionPatch
+[Info   :ModulePatch] Enabled patch ShallKnowEnemyPatch
+[Info   :ModulePatch] Enabled patch ShallKnowEnemyLatePatch
+[Info   :ModulePatch] Enabled patch HaveSeenEnemyPatch
+[Info   :ModulePatch] Enabled patch BlockVoiceRequestsPatch
+[Info   :ModulePatch] Enabled patch BlockGrenadeThrowRequestsPatch
+[Info   :ModulePatch] Enabled patch BlockRequestPatch
+[Info   :ModulePatch] Enabled patch SetInHands_Empty
+[Info   :ModulePatch] Enabled patch SetInHands_Food_Patch
+[Info   :ModulePatch] Enabled patch SetInHands_Grenade_Patch
+[Info   :ModulePatch] Enabled patch SetInHands_Knife_Patch
+[Info   :ModulePatch] Enabled patch SetInHands_Meds_Patch1
+[Info   :ModulePatch] Enabled patch SetInHands_Meds_Patch2
+[Info   :ModulePatch] Enabled patch SetInHands_QuickUse_Patch1
+[Info   :ModulePatch] Enabled patch SetInHands_QuickUse_Patch2
+[Info   :ModulePatch] Enabled patch SetInHands_Weapon_Patch
+[Info   :ModulePatch] Enabled patch SetInHands_Weapon_Stationary_Patch
+[Info   :ModulePatch] Enabled patch StopSetToNavMeshPatch
+[Info   :ModulePatch] Enabled patch StopSetToNavMeshPatch2
+[Info   :ModulePatch] Enabled patch FightShallReloadFixPatch
+[Info   :ModulePatch] Enabled patch EnableVaultPatch
+[Info   :ModulePatch] Enabled patch BotMemoryAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotGroupAddEnemyPatch
+[Info   :ModulePatch] Enabled patch FixItemTakerPatch
+[Info   :ModulePatch] Enabled patch FixItemTakerPatch2
+[Info   :ModulePatch] Enabled patch RotateClampPatch
+[Info   :ModulePatch] Enabled patch RunToEnemyUpdatePatch
+[Info   :ModulePatch] Enabled patch DisableGrenadesPatch
+[Info   :ModulePatch] Enabled patch EncumberedPatch
+[Info   :ModulePatch] Enabled patch DoorOpenerPatch
+[Info   :ModulePatch] Enabled patch DoorDisabledPatch
+[Info   :ModulePatch] Enabled patch CrawlPatch
+[Info   :ModulePatch] Enabled patch StopShootCauseAnimatorPatch
+[Info   :ModulePatch] Enabled patch PoseStaminaPatch
+[Info   :ModulePatch] Enabled patch AimStaminaPatch
+[Info   :ModulePatch] Enabled patch GlobalShootSettingsPatch
+[Info   :ModulePatch] Enabled patch MovementContextIsAIPatch
+[Info   :ModulePatch] Enabled patch CanBeSnappedPatch
+[Info   :ModulePatch] Enabled patch BotMoverManualUpdatePatch
+[Info   :ModulePatch] Enabled patch BotMoverManualFixedUpdatePatch
+[Info   :ModulePatch] Enabled patch SprintLookDirPatch
+[Info   :ModulePatch] Enabled patch PlayerSetPosePatch
+[Info   :ModulePatch] Enabled patch TryPlayShootSoundPatch
+[Info   :ModulePatch] Enabled patch OnMakingShotPatch
+[Info   :ModulePatch] Enabled patch RegisterShotPatch
+[Info   :ModulePatch] Enabled patch OnWeaponModifiedPatch
+[Info   :ModulePatch] Enabled patch HearingSensorPatch
+[Info   :ModulePatch] Enabled patch GrenadeCollisionPatch
+[Info   :ModulePatch] Enabled patch GrenadeCollisionPatch2
+[Info   :ModulePatch] Enabled patch ToggleSoundPatch
+[Info   :ModulePatch] Enabled patch SpawnInHandsSoundPatch
+[Info   :ModulePatch] Enabled patch PlaySwitchHeadlightSoundPatch
+[Info   :ModulePatch] Enabled patch BulletImpactPatch
+[Info   :ModulePatch] Enabled patch TreeSoundPatch
+[Info   :ModulePatch] Enabled patch DoorBreachSoundPatch
+[Info   :ModulePatch] Enabled patch DoorOpenSoundPatch
+[Info   :ModulePatch] Enabled patch FootstepSoundPatch
+[Info   :ModulePatch] Enabled patch SprintSoundPatch
+[Info   :ModulePatch] Enabled patch GenericMovementSoundPatch
+[Info   :ModulePatch] Enabled patch SpecificStepAudioControllerPatch
+[Info   :ModulePatch] Enabled patch JumpSoundPatch
+[Info   :ModulePatch] Enabled patch DryShotPatch
+[Info   :ModulePatch] Enabled patch ProneSoundPatch
+[Info   :ModulePatch] Enabled patch SoundClipNameCheckerPatch
+[Info   :ModulePatch] Enabled patch SoundClipNameCheckerPatch2
+[Info   :ModulePatch] Enabled patch AimSoundPatch
+[Info   :ModulePatch] Enabled patch LootingSoundPatch
+[Info   :ModulePatch] Enabled patch JumpPainPatch
+[Info   :ModulePatch] Enabled patch PlayerHurtPatch
+[Info   :ModulePatch] Enabled patch PlayerTalkPatch
+[Info   :ModulePatch] Enabled patch BotTalkPatch
+[Info   :ModulePatch] Enabled patch BotTalkManualUpdatePatch
+[Info   :ModulePatch] Enabled patch DisableLookUpdatePatch
+[Info   :ModulePatch] Enabled patch UpdateLightEnablePatch
+[Info   :ModulePatch] Enabled patch UpdateLightEnablePatch2
+[Info   :ModulePatch] Enabled patch ToggleNightVisionPatch
+[Info   :ModulePatch] Enabled patch GlobalLookSettingsPatch
+[Info   :ModulePatch] Enabled patch WeatherTimeVisibleDistancePatch
+[Info   :ModulePatch] Enabled patch NoAIESPPatch
+[Info   :ModulePatch] Enabled patch BotLightTurnOnPatch
+[Info   :ModulePatch] Enabled patch VisionSpeedPatch
+[Info   :ModulePatch] Enabled patch WeatherVisionPatch
+[Info   :ModulePatch] Enabled patch IsPointInVisibleSectorPatch
+[Info   :ModulePatch] Enabled patch VisionDistancePatch
+[Info   :ModulePatch] Enabled patch CheckFlashlightPatch
+[Info   :ModulePatch] Enabled patch DoHitAffectPatch
+[Info   :ModulePatch] Enabled patch HitAffectApplyPatch
+[Info   :ModulePatch] Enabled patch PlayerHitReactionDisablePatch
+[Info   :ModulePatch] Enabled patch BotAimSteerPatch
+[Info   :ModulePatch] Enabled patch HardAimDisablePatch1
+[Info   :ModulePatch] Enabled patch HardAimDisablePatch2
+[Info   :ModulePatch] Enabled patch BotShootPatch
+[Info   :ModulePatch] Enabled patch ShootDataManualUpdatePatch
+[Info   :ModulePatch] Enabled patch AimOffsetPatch
+[Info   :ModulePatch] Enabled patch AimTimePatch
+[Info   :ModulePatch] Enabled patch ForceNoHeadAimPatch
+[Info   :ModulePatch] Enabled patch SmoothTurnPatch
+[Info   :ModulePatch] Enabled patch ResetGrenadePatch
+[Info   :ModulePatch] Enabled patch SetGrenadePatch
+[Info   :   BepInEx] Loading [Transmog 1.2.0]
+[Info   :  Transmog] Loading: Transmog - V1.2.0
+[Info   :  Transmog] Found PlayerModelView Show method.
+[Info   :ModulePatch] Enabled patch PlayerModelViewPatch
+[Info   :  Transmog] Found PlayerIconImage SetPresetIcon method.
+[Info   :ModulePatch] Enabled patch PlayerIconImagePatch
+[Info   :  Transmog] Found TacticalClothingView Show method.
+[Info   :ModulePatch] Enabled patch TacticalClothingViewPatch
+[Info   :  Transmog] Found PlayerBody Init method.
+[Info   :ModulePatch] Enabled patch PlayerBodyPatch1
+[Info   :  Transmog] PlayerBodyPatch2 Patched.
+[Info   :ModulePatch] Enabled patch PlayerBodyPatch2
+[Info   :  Transmog] Found Profile GetAllPrefabPaths method.
+[Info   :ModulePatch] Enabled patch PlayerBodyPatch3
+[Info   :  Transmog] Found HideoutPlayerOwner method_33 method.
+[Info   :ModulePatch] Enabled patch PlayerBodyPatch4
+[Info   :  Transmog] Found MatchMakerSideSelectionScreen Show method.
+[Info   :ModulePatch] Enabled patch MatchMakerSideSelectionScreenPatch
+[Message:   BepInEx] Chainloader startup complete
+[Info   : Fika.Core] Server version check passed. Expected: >2.4.7, received: 2.4.8
+[Info   :FikaModHandler] Loaded plugin: [Configuration Manager] with GUID [com.bepis.bepinex.configurationmanager] and crc32 [2453335703]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Core] with GUID [com.SPT.core] and crc32 [4135225510]
+[Info   :FikaModHandler] Loaded plugin: [DrakiaXYZ-Waypoints] with GUID [xyz.drakia.waypoints] and crc32 [4022289109]
+[Info   :FikaModHandler] Loaded plugin: [DrakiaXYZ-BigBrain] with GUID [xyz.drakia.bigbrain] and crc32 [3701555121]
+[Info   :FikaModHandler] Loaded plugin: [DanW-QuestingBots] with GUID [com.DanW.QuestingBots] and crc32 [2312158622]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Custom] with GUID [com.SPT.custom] and crc32 [2697771812]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Singleplayer] with GUID [com.SPT.singleplayer] and crc32 [1999686428]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Debugging] with GUID [com.SPT.debugging] and crc32 [2084470248]
+[Info   :FikaModHandler] Loaded plugin: [Fika.Core] with GUID [com.fika.core] and crc32 [3233123487]
+[Info   :FikaModHandler] Loaded plugin: [IcyClawz.CustomInteractions] with GUID [com.IcyClawz.CustomInteractions] and crc32 [1938200941]
+[Info   :FikaModHandler] Loaded plugin: [LootingBots] with GUID [me.skwizzy.lootingbots] and crc32 [4123998962]
+[Info   :FikaModHandler] Loaded plugin: [SAIN] with GUID [me.sol.sain] and crc32 [894837310]
+[Info   :FikaModHandler] Loaded plugin: [Transmog] with GUID [net.hakugyokurou.Transmog] and crc32 [339653305]
+[Info   :RequestHandler] [REQUEST]: /fika/client/check/mods
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /fika/client/check/mods
+[Info   :FikaModHandler] UI Fixes is not loaded, enabling PartyInfoPanel fix
+[Info   : FikaPatch] Enabled patch PartyInfoPanel_method_3_Patch
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST]: /singleplayer/release
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/release
+[Info   :RequestHandler] [REQUEST]: /singleplayer/moddedTraders
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/moddedTraders
+[Info   :RequestHandler] [REQUEST]: /singleplayer/enableBSGlogging
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/enableBSGlogging
+[Info   :RequestHandler] [REQUEST]: /singleplayer/bundles
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/bundles
+[Info   :DanW-QuestingBots] Found external mod SAIN (version 4.1.1)
+[Info   :DanW-QuestingBots] Found external mod LootingBots (version 1.5.2)
+[Info   :DanW-QuestingBots] SAIN detected. Adjusting Questing Bots brain layer priorities...
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
+[Info   : FikaPatch] Server version: SPT 3.11.3 - 7a9a34
+[Info   : Fika.Core] Waiting for locales to be ready...
+[Info   : Fika.Core] Locales are ready!
+[Info   : Fika.Core] Cached local IPs: 0.0.0.0, 26.77.140.167, 10.75.255.201
+[Info   : Fika.Core] Auto-detected VPN IP: 26.77.140.167, setting as ForceBindIP
+[Info   :DanW-QuestingBots] Logging path: E:\SPT/BepInEx/plugins/DanW-SPTQuestingBots/log/
+[Info   :DanW-QuestingBots] Found 79 non-EFT quests for bigmap
+[Info   :DanW-QuestingBots] Found 49 non-EFT quests for factory4_day
+[Info   :DanW-QuestingBots] Found 82 non-EFT quests for Interchange
+[Info   :DanW-QuestingBots] Found 60 non-EFT quests for laboratory
+[Info   :DanW-QuestingBots] Found 76 non-EFT quests for Lighthouse
+[Info   :DanW-QuestingBots] Found 57 non-EFT quests for RezervBase
+[Info   :DanW-QuestingBots] Found 40 non-EFT quests for Sandbox
+[Info   :DanW-QuestingBots] Found 40 non-EFT quests for Sandbox_high
+[Info   :DanW-QuestingBots] Found 50 non-EFT quests for Shoreline
+[Info   :DanW-QuestingBots] Found 38 non-EFT quests for Woods
+[Info   :DanW-QuestingBots] Found 109 non-EFT quests for TarkovStreets
+[Info   :DanW-QuestingBots] Validated all quest files
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :LootingBots] Initializing item appraiser
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/raid/menu
+[Info   :NetManagerUtils] FikaGameObject has been created!
+[Info   :NetManagerUtils] FikaServer has started!
+[Info   :Fika.Server] Starting server with SendRate: 20
+[Info   :NetManagerUtils] Creating CoopHandler...
+[Info   :Fika.Server] Started Fika Server
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/getRaidTime
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/getRaidTime
+[Info   :  CoopGame] Location: Sandbox
+[Info   :NetManagerUtils] Setting up game variables...
+[Info   :  CoopGame] Adding debug component...
+[Info   :  CoopGame] Local player created
+[Info   :  CoopGame] Starting task to wait for host to start the raid.
+[Info   :  CoopGame] Generating and initializing weather...
+[Info   :  CoopGame] Setting Season to: Summer
+[Info   : Fika.Core] Retrieving Core settings
+[Warning:ModulePatch] __instance.BotHalloweenEvent._spawner is null skip Activate
+[Info   :ModulePatch] __instance.BotHalloweenEvent._spawner is not null run Activate
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/maxCap/Sandbox_high
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/maxCap/Sandbox_high
+[Info   :ModulePatch] Set max bot cap for: Sandbox_high from: 36 to: 14
+[Info   :RequestHandler] [REQUEST]: /QuestingBots/GetZoneAndItemQuestPositions
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /QuestingBots/GetZoneAndItemQuestPositions
+[Info   :DanW-QuestingBots] Found override settings for 14 zone or item position(s)
+[Info   :RequestHandler] [REQUEST]: /QuestingBots/GetAllQuestTemplates
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /QuestingBots/GetAllQuestTemplates
+[Info   :RequestHandler] [REQUEST]: /QuestingBots/GetEFTQuestSettings
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /QuestingBots/GetEFTQuestSettings
+[Info   :DanW-QuestingBots] Applying override settings for quest Бункер. Часть 1...
+[Info   :DanW-QuestingBots] Applying override settings for quest Секретные разработки...
+[Info   :DanW-QuestingBots] Applying override settings for quest Документы...
+[Info   :DanW-QuestingBots] Applying override settings for quest Чёрный выход...
+[Warning:DanW-QuestingBots] Waiting for LoadQuest until next frame... (Cycle times: 6, Total time: 7)
+[Info   :DanW-QuestingBots] 4 initial PMC groups will be generated (Min: 4, Max: 6)
+[Info   :DanW-QuestingBots] Max PMC's on the map (sandbox_high) at the same time: 7
+[Info   :RequestHandler] [REQUEST]: /QuestingBots/GetScavRaidSettings
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /QuestingBots/GetScavRaidSettings
+[Info   :DanW-QuestingBots] Spawn times for 18 PScavs: 21:00, 19:55, 19:43, 19:27, 19:09, 18:59, 17:26, 17:12, 17:00, 16:50, 15:16, 15:15, 14:42, 14:15, 13:01, 12:57, 12:36, 12:01
+[Info   :DanW-QuestingBots] Max PScavs on the map (sandbox_high) at the same time: 7
+[Info   :DanW-QuestingBots] Generating 4 PMCs...
+[Info   :RequestHandler] [REQUEST]: /QuestingBots/GetUSECChance
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /QuestingBots/GetUSECChance
+[Info   :DanW-QuestingBots] Generating normal PMC group (Number of bots: 2)...
+[Info   :DanW-QuestingBots] Delaying the game start until bot generation finishes...
+[Warning: DynamicAI] QuestingBots detected, destroying DynamicAI component. Use QuestingBots AI limiter instead!
+[Info   :  CoopGame] All players are loaded, continuing...
+[Info   :  CoopGame] Running old spawn system. Waves: 5
+[Warning:DanW-QuestingBots] Waiting for LoadQuest until next frame...done. (Cycle times: 6, 6, 6, 6, 3, Total time: 406)
+[Info   :DanW-QuestingBots] Searching for EFT quest locations...
+[Warning:DanW-QuestingBots] Waiting for ProcessTrigger until next frame... (Cycle times: 8, Total time: 8)
+[Warning:DanW-QuestingBots] Waiting for ProcessTrigger until next frame...done. (Cycle times: 8, 6, 4, Total time: 82)
+[Warning:DanW-QuestingBots] Waiting for LocateQuestItems until next frame... (Cycle times: 6, Total time: 6)
+[Warning:DanW-QuestingBots] Waiting for LocateQuestItems until next frame...done. (Cycle times: 6, 3, Total time: 40)
+[Info   :DanW-QuestingBots] Searching for EFT quest locations...done.
+[Info   :DanW-QuestingBots] Loading custom quests...
+[Info   :DanW-QuestingBots] Loading custom quests...found 40 custom quests.
+[Info   :DanW-QuestingBots] Finished loading quest data.
+[Info   :DanW-QuestingBots] Finding static paths...
+[Warning:DanW-QuestingBots] Waiting for findStaticPaths until next frame... (Cycle times: 6, Total time: 6)
+[Warning:DanW-QuestingBots] Could not find a static path from (-40.54, 29.69, 56.05) to (-11.44, 29.69, 56.45) for TerraGroup Office Upstairs: Objective #6 in TerraGroup Office Upstairs
+[Warning:DanW-QuestingBots] Could not find a static path from (-40.54, 29.69, 56.05) to (-17.83, 29.69, 53.50) for TerraGroup Office Upstairs: Objective #7 in TerraGroup Office Upstairs
+[Warning:DanW-QuestingBots] Could not find a static path from (-40.54, 29.69, 56.05) to (-17.54, 29.69, 46.11) for TerraGroup Office Upstairs: Objective #8 in TerraGroup Office Upstairs
+[Warning:DanW-QuestingBots] Could not find a static path from (-40.54, 29.69, 56.05) to (-14.13, 29.71, 41.28) for TerraGroup Office Upstairs: Objective #9 in TerraGroup Office Upstairs
+[Warning:DanW-QuestingBots] Could not find a static path from (-40.54, 29.69, 56.05) to (-10.86, 29.69, 47.49) for TerraGroup Office Quest Room Camping: Objective #1 in TerraGroup Office Quest Room Camping
+[Warning:DanW-QuestingBots] Waiting for findStaticPaths until next frame...done. (Cycle times: 6, 5, Total time: 45)
+[Info   :DanW-QuestingBots] Finding static paths...done.
+[Info   :RequestHandler] [REQUEST]: /singleplayer/scav/traitorscavhostile
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/scav/traitorscavhostile
+[Info   :DanW-QuestingBots] Generating normal PMC group (Number of bots: 2)...done. (Skwizzy, lualeet)
+[Info   :DanW-QuestingBots] Generating easy PMC group (Number of bots: 1)...
+[Info   :  CoopGame] Running new spawn system.
+[Warning: Fika.Core] FreeCameraController::Awake: Failed to cache BattleUI
+[Info   :  CoopGame] MatchingType: GroupLeader, Raid Code: 1B6E1M
+[Info   :DanW-QuestingBots] Waiting for 2 bot generators...
+[Info   :DanW-QuestingBots] Generating easy PMC group (Number of bots: 1)...done. (cardsmen)
+[Info   :DanW-QuestingBots] Generating easy PMC group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating easy PMC group (Number of bots: 1)...done. (Pycak)
+[Info   :DanW-QuestingBots] Generating 4 PMCs...done.
+[Info   :DanW-QuestingBots] Generating 18 PScavs...
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...done. (Саня Сигаретка)
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...done. (Сева Кастрюля)
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...done. (Русик Вонючка)
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...done. (Пантелеймон Вупсень)
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...done. (Данила Скворец)
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...done. (Сергей Белый)
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...done. (Богдан Московский)
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...done. (Стас Руссиано)
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...done. (Мстислав Пукан)
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...done. (Ромчик Рэмба)
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 2)...
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 2)...done. (Платон Ржавый, Жорес Продавец)
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...done. (Юрий Никулин)
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...done. (Петр Дудис)
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...done. (Лёва Сметана)
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...done. (Фёдор Гоблин)
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...done. (Дрон Японец)
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...done. (Давид Макака)
+[Info   :DanW-QuestingBots] Generating 18 PScavs...done.
+[Info   :DanW-QuestingBots] All bot generators have finished.
+[Error  :  CoopGame] SyncTransitControllers: TransitController was null!
+[Info   :  CoopGame] [SERVER] SpawnPoint: ec13b292-f7ef-4a17-85ae-84b356502878, InfiltrationPoint: west
+[Info   :DanW-QuestingBots] Spawned all missed boss waves
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/getBotBehaviours/
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/getBotBehaviours/
+[Warning:ModulePatch] Cached ai brain weights in client
+[Warning:ModulePatch] Updated assault bot Витёк Сепультура to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Витёк Сепультура (Name: Bot1, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned boss Витёк Сепультура (Name: Bot1, Level: 1) (0/0) (Savage)
+[Warning:ModulePatch] Updated assault bot Матвей Новогодний to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Матвей Новогодний (Name: Bot2, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned boss Матвей Новогодний (Name: Bot2, Level: 1) (0/0) (Savage)
+[Warning:ModulePatch] Updated assault bot Марк Баклажан to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Марк Баклажан (Name: Bot3, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned boss Марк Баклажан (Name: Bot3, Level: 1) (0/0) (Savage)
+[Warning:ModulePatch] Updated assault bot Петро Косяк to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Петро Косяк (Name: Bot4, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned boss Петро Косяк (Name: Bot4, Level: 1) (0/0) (Savage)
+[Warning:ModulePatch] Updated assault bot Владик Мамкин to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Владик Мамкин (Name: Bot5, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned boss Владик Мамкин (Name: Bot5, Level: 1) (0/0) (Savage)
+[Warning:ModulePatch] Updated assault bot Лёва Живчик to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Лёва Живчик (Name: Bot6, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned boss Лёва Живчик (Name: Bot6, Level: 1) (0/0) (Savage)
+[Warning:ModulePatch] Updated assault bot Ваня Хворостовский to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Ваня Хворостовский (Name: Bot7, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned boss Ваня Хворостовский (Name: Bot7, Level: 1) (0/0) (Savage)
+[Warning:ModulePatch] Updated assault bot Витян СССР to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Витян СССР (Name: Bot8, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned boss Витян СССР (Name: Bot8, Level: 1) (0/0) (Savage)
+[Warning:ModulePatch] Updated assault bot Алекс Сапог to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Алекс Сапог (Name: Bot9, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned boss Алекс Сапог (Name: Bot9, Level: 1) (0/0) (Savage)
+[Warning:ModulePatch] Updated assault bot Серый Инвестор to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Серый Инвестор (Name: Bot10, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned boss Серый Инвестор (Name: Bot10, Level: 1) (0/0) (Savage)
+[Info   :DanW-QuestingBots] Trying to spawn 3 PMC group(s)...
+[Info   :DanW-QuestingBots] Spawning PMC group at (101.81, 28.14, 317.12), (103.80, 28.14, 316.12)...
+[Info   :DanW-QuestingBots] Spawned bot Skwizzy (Name: Bot11, Level: 21)
+[Info   :DanW-QuestingBots] Spawned bot lualeet (Name: Bot12, Level: 21)
+[Info   :DanW-QuestingBots] Spawning PMC group at (184.96, 17.21, -8.59)...
+[Info   :DanW-QuestingBots] Spawned bot cardsmen (Name: Bot13, Level: 21)
+[Info   :DanW-QuestingBots] Spawning PMC group at (36.95, 23.47, 146.98)...
+[Info   :DanW-QuestingBots] Spawned bot Pycak (Name: Bot14, Level: 21)
+[Info   :DanW-QuestingBots] Trying to spawn 3 PMC group(s)...done.
+[Info   :DanW-QuestingBots] Trying to spawn 3 PScav group(s)...
+[Info   :DanW-QuestingBots] Spawning PScav group at (135.85, 14.09, 68.92)...
+[Info   :DanW-QuestingBots] Spawned bot Сева Кастрюля (Name: Bot15, Level: 1)
+[Info   :DanW-QuestingBots] Spawning PScav group at (151.47, 22.85, 243.36)...
+[Info   :DanW-QuestingBots] Spawned bot Пантелеймон Вупсень (Name: Bot16, Level: 1)
+[Info   :DanW-QuestingBots] Spawning PScav group at (117.82, 28.96, 152.67)...
+[Info   :DanW-QuestingBots] Spawned bot Сергей Белый (Name: Bot17, Level: 1)
+[Info   :DanW-QuestingBots] Trying to spawn 3 PScav group(s)...done.
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Пантелеймон Вупсень (Name: Bot16, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #11: Пантелеймон Вупсень (Name: Bot16, Level: 1) (Savage)
+[Warning:ModulePatch] Updated spt bot lualeet: pmcBEAR to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot lualeet (Name: Bot12, Level: 21): pmcBEAR
+[Info   :DanW-QuestingBots] Spawned bot #12: lualeet (Name: Bot12, Level: 21) (Bear)
+[Info   :DanW-QuestingBots] Setting objective for Пантелеймон Вупсень (Name: Bot16, Level: 1) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Пантелеймон Вупсень (Name: Bot16, Level: 1) is now doing Step #1 for objective Kyshperski: Objective #1 in quest Kyshperski
+[Info   :DanW-QuestingBots] Setting objective for lualeet (Name: Bot12, Level: 21) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot lualeet (Name: Bot12, Level: 21) is now doing Step #1 for objective Zone Sandbox_2_AGS_exploration in quest Стрельба по баночкам
+[Warning:ModulePatch] Updated spt bot Skwizzy: pmcBEAR to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Skwizzy (Name: Bot11, Level: 21): pmcBEAR
+[Info   :DanW-QuestingBots] Spawned bot #13: Skwizzy (Name: Bot11, Level: 21) (Bear)
+[Info   :DanW-QuestingBots] Bot lualeet (Name: Bot12, Level: 21) is now a follower for Skwizzy (Name: Bot11, Level: 21)
+[Info   :DanW-QuestingBots] Setting objective for Skwizzy (Name: Bot11, Level: 21) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Skwizzy (Name: Bot11, Level: 21) is now doing Step #1 for objective Zone Sandbox_2_AGS_exploration in quest Стрельба по баночкам
+[Warning:ModulePatch] Updated spt bot cardsmen: pmcUSEC to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot cardsmen (Name: Bot13, Level: 21): pmcUSEC
+[Info   :DanW-QuestingBots] Spawned bot #14: cardsmen (Name: Bot13, Level: 21) (Usec)
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Сева Кастрюля (Name: Bot15, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #15: Сева Кастрюля (Name: Bot15, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Setting objective for cardsmen (Name: Bot13, Level: 21) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot cardsmen (Name: Bot13, Level: 21) is now doing Step #1 for objective TerraGroup Office Upstairs: Objective #9 in quest TerraGroup Office Upstairs
+[Info   :DanW-QuestingBots] Setting objective for Сева Кастрюля (Name: Bot15, Level: 1) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Сева Кастрюля (Name: Bot15, Level: 1) is now doing Step #1 for objective Oasis: Objective #1 in quest Oasis
+[Warning:ModulePatch] Updated spt bot Pycak: pmcBEAR to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Pycak (Name: Bot14, Level: 21): pmcBEAR
+[Info   :DanW-QuestingBots] Spawned bot #16: Pycak (Name: Bot14, Level: 21) (Bear)
+[Info   :DanW-QuestingBots] Setting objective for Pycak (Name: Bot14, Level: 21) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Pycak (Name: Bot14, Level: 21) is now doing Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Стрельба по баночкам
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Сергей Белый (Name: Bot17, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #17: Сергей Белый (Name: Bot17, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Bot lualeet (Name: Bot12, Level: 21) is no longer doing Step #1 for objective Zone Sandbox_2_AGS_exploration in quest Стрельба по баночкам
+[Info   :DanW-QuestingBots] Setting objective for Сергей Белый (Name: Bot17, Level: 1) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Сергей Белый (Name: Bot17, Level: 1) is now doing Step #1 for objective Tartowers: Objective #4 in quest Tartowers
+[Info   :DanW-QuestingBots] Bot lualeet (Name: Bot12, Level: 21) is no longer doing Step #1 for objective Zone Sandbox_2_AGS_exploration in quest Стрельба по баночкам
+[Info   :DanW-QuestingBots] Bot cardsmen (Name: Bot13, Level: 21) cannot find a complete path to its objective (Step #1 for objective TerraGroup Office Upstairs: Objective #9 in quest TerraGroup Office Upstairs). Trying anyway. Distance from end of path to objective: 5.883619
+[Error  :LootingBots] ([assault] Bot1) Has been stuck trying to reach: Репеллент. Ignoring
+[Warning:DanW-QuestingBots] lualeet (Name: Bot12, Level: 21) is stuck. Trying to jump...
+[Error  :LootingBots] ([assault] Bot7) Has been stuck trying to reach: Wilston. Ignoring
+[Info   :DanW-QuestingBots] Bot Pycak (Name: Bot14, Level: 21) has completed Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Стрельба по баночкам
+[Warning:DanW-QuestingBots] Пантелеймон Вупсень (Name: Bot16, Level: 1) is stuck. Trying to jump...
+[Warning:DanW-QuestingBots] Bot Пантелеймон Вупсень (Name: Bot16, Level: 1) cannot find a complete path to its objective (Step #1 for objective Kyshperski: Objective #1 in quest Kyshperski). Giving up. Remaining distance to objective: 8.252695
+[Info   :DanW-QuestingBots] Bot Пантелеймон Вупсень (Name: Bot16, Level: 1) has failed Step #1 for objective Kyshperski: Objective #1 in quest Kyshperski
+[Error  :LootingBots] ([assault] Bot1) Has been stuck trying to reach: Ящик с инструментами. Ignoring
+[Error  :LootingBots] ([assault] Bot5) Has been stuck trying to reach: Труп Дикого. Ignoring
+[Info   :DanW-QuestingBots] Bot Пантелеймон Вупсень (Name: Bot16, Level: 1) is now doing Step #1 for objective Kyshperski: Objective #2 in quest Kyshperski
+[Error  :LootingBots] ([assault] Bot7) Has been stuck trying to reach: Репеллент. Ignoring
+[Warning:DanW-QuestingBots] Пантелеймон Вупсень (Name: Bot16, Level: 1) is stuck. Trying to jump...
+[Warning:DanW-QuestingBots] Bot Пантелеймон Вупсень (Name: Bot16, Level: 1) cannot find a complete path to its objective (Step #1 for objective Kyshperski: Objective #2 in quest Kyshperski). Giving up. Remaining distance to objective: 4.184214
+[Info   :DanW-QuestingBots] Bot Пантелеймон Вупсень (Name: Bot16, Level: 1) has failed Step #1 for objective Kyshperski: Objective #2 in quest Kyshperski
+[Info   :DanW-QuestingBots] Bot Пантелеймон Вупсень (Name: Bot16, Level: 1) is now doing Step #1 for objective Kyshperski: Objective #3 in quest Kyshperski
+[Info   :DanW-QuestingBots] Петро Косяк (Name: Bot4, Level: 1) (Scav) was killed by Pycak (Name: Bot14, Level: 21) (PMC). Initial PMC's remaining: 4
+[Warning:ModulePatch] Updated assault bot Сева Сильвестр to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Сева Сильвестр (Name: Bot20, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #18: Сева Сильвестр (Name: Bot20, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot Лёха Флоу to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Лёха Флоу (Name: Bot18, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #19: Лёха Флоу (Name: Bot18, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot Кайл Шиза to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Кайл Шиза (Name: Bot19, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #20: Кайл Шиза (Name: Bot19, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot Жорес Лаванда to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Жорес Лаванда (Name: Bot21, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #21: Жорес Лаванда (Name: Bot21, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] cardsmen (Name: Bot13, Level: 21) (PMC) was killed by Сева Кастрюля (Name: Bot15, Level: 1) (Scav). Initial PMC's remaining: 3
+[Info   :DanW-QuestingBots] Bot cardsmen (Name: Bot13, Level: 21) has failed Step #1 for objective TerraGroup Office Upstairs: Objective #9 in quest TerraGroup Office Upstairs
+[Warning: DynamicAI] Could not remove Bot13 from bots list.
+[Info   :DanW-QuestingBots] Trying to spawn 1 PScav group(s)...
+[Info   :DanW-QuestingBots] Spawning PScav group at (184.96, 17.21, -8.59)...
+[Info   :DanW-QuestingBots] Spawned bot Данила Скворец (Name: Bot22, Level: 1)
+[Info   :DanW-QuestingBots] Trying to spawn 1 PScav group(s)...done.
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Данила Скворец (Name: Bot22, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #22: Данила Скворец (Name: Bot22, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Setting objective for Данила Скворец (Name: Bot22, Level: 1) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Данила Скворец (Name: Bot22, Level: 1) is now doing Step #1 for objective Skyside Hotel: Objective #1 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Pycak (Name: Bot14, Level: 21) has completed 1 EFT quests and is ready to extract.
+[Info   :DanW-QuestingBots] Pycak (Name: Bot14, Level: 21) is no longer allowed to quest.
+[Info   :DanW-QuestingBots] Bot Данила Скворец (Name: Bot22, Level: 1) has completed Step #1 for objective Skyside Hotel: Objective #1 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Bot Данила Скворец (Name: Bot22, Level: 1) is now doing Step #1 for objective Skyside Hotel: Objective #3 in quest Skyside Hotel
+[Warning:DanW-QuestingBots] Данила Скворец (Name: Bot22, Level: 1) is stuck. Trying to jump...
+[Info   :DanW-QuestingBots] Bot Данила Скворец (Name: Bot22, Level: 1) cannot find a complete path to its objective (Step #1 for objective Skyside Hotel: Objective #3 in quest Skyside Hotel). Trying anyway. Distance from end of path to objective: 0
+[Error  :LootingBots] ([assault] Bot22) Has been stuck trying to reach: Труп гражданского. Ignoring
+[Info   :DanW-QuestingBots] Bot Данила Скворец (Name: Bot22, Level: 1) has completed Step #1 for objective Skyside Hotel: Objective #3 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Bot Данила Скворец (Name: Bot22, Level: 1) is now doing Step #1 for objective Skyside Hotel: Objective #2 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Матвей Новогодний (Name: Bot2, Level: 1) (Scav) was killed by lualeet (Name: Bot12, Level: 21) (PMC). Initial PMC's remaining: 3
+[Info   :DanW-QuestingBots] Пантелеймон Вупсень (Name: Bot16, Level: 1) (Scav) was killed by Skwizzy (Name: Bot11, Level: 21) (PMC). Initial PMC's remaining: 3
+[Info   :DanW-QuestingBots] Bot Пантелеймон Вупсень (Name: Bot16, Level: 1) has failed Step #1 for objective Kyshperski: Objective #3 in quest Kyshperski
+[Warning: DynamicAI] Could not remove Bot16 from bots list.
+[Info   :DanW-QuestingBots] Trying to spawn 1 PScav group(s)...
+[Info   :DanW-QuestingBots] Spawning PScav group at (-4.45, 23.89, -58.90)...
+[Info   :DanW-QuestingBots] Spawned bot Саня Сигаретка (Name: Bot23, Level: 1)
+[Info   :DanW-QuestingBots] Trying to spawn 1 PScav group(s)...done.
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Саня Сигаретка (Name: Bot23, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #23: Саня Сигаретка (Name: Bot23, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Setting objective for Саня Сигаретка (Name: Bot23, Level: 1) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Саня Сигаретка (Name: Bot23, Level: 1) is now doing Step #1 for objective TerraGroup Garage: Objective #1 in quest TerraGroup Garage
+[Info   :DanW-QuestingBots] Bot Саня Сигаретка (Name: Bot23, Level: 1) has completed Step #1 for objective TerraGroup Garage: Objective #1 in quest TerraGroup Garage
+[Info   :DanW-QuestingBots] Pycak (Name: Bot14, Level: 21) (PMC) was killed by Жорес Лаванда (Name: Bot21, Level: 1) (Scav). Initial PMC's remaining: 2
+[Warning: DynamicAI] Could not remove Bot14 from bots list.
+[Info   :DanW-QuestingBots] Trying to spawn 1 PScav group(s)...
+[Info   :DanW-QuestingBots] Spawning PScav group at (101.81, 28.14, 317.12)...
+[Info   :DanW-QuestingBots] Spawned bot Русик Вонючка (Name: Bot24, Level: 1)
+[Info   :DanW-QuestingBots] Trying to spawn 1 PScav group(s)...done.
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Русик Вонючка (Name: Bot24, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #24: Русик Вонючка (Name: Bot24, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Setting objective for Русик Вонючка (Name: Bot24, Level: 1) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Русик Вонючка (Name: Bot24, Level: 1) is now doing Step #1 for objective Capital Insight Cafe Camping: Objective #1 in quest Capital Insight Cafe Camping
+[Info   :DanW-QuestingBots] Bot Саня Сигаретка (Name: Bot23, Level: 1) is now doing Step #1 for objective TerraGroup Garage: Objective #2 in quest TerraGroup Garage
+[Info   :DanW-QuestingBots] Bot Саня Сигаретка (Name: Bot23, Level: 1) has completed Step #1 for objective TerraGroup Garage: Objective #2 in quest TerraGroup Garage
+[Error  :LootingBots] ([assault] Bot22) Has been stuck trying to reach: RatCola. Ignoring
+[Info   :DanW-QuestingBots] Bot Данила Скворец (Name: Bot22, Level: 1) has completed Step #1 for objective Skyside Hotel: Objective #2 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Bot Саня Сигаретка (Name: Bot23, Level: 1) is now doing Step #2 for objective TerraGroup Garage: Objective #2 in quest TerraGroup Garage
+[Info   :DanW-QuestingBots] Bot Данила Скворец (Name: Bot22, Level: 1) is now doing Step #1 for objective Skyside Hotel: Objective #4 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Гена Дух (Name: Main_PlayerSuperior(Clone), Level: 2) (Scav) was killed by lualeet (Name: Bot12, Level: 21) (PMC). Initial PMC's remaining: 2
+[Info   :DanW-QuestingBots] Bot Саня Сигаретка (Name: Bot23, Level: 1) has completed Step #2 for objective TerraGroup Garage: Objective #2 in quest TerraGroup Garage
+[Info   :DanW-QuestingBots] Bot Саня Сигаретка (Name: Bot23, Level: 1) is now doing Step #3 for objective TerraGroup Garage: Objective #2 in quest TerraGroup Garage
+[Info   :CoopHandler] F8 pressed, attempting to extract!
+[Error  :      SAIN] [SAIN.Components.BotComponent] : [[PlayerRemoved().RemoveBot().Dispose()]:] : [Dispose Class [SAIN.SAINComponent.Classes.Mover.SAINMoverClass] Error: System.NullReferenceException: Object reference not set to an instance of an object
+  at SAIN.SAINComponent.Classes.Mover.BotPathDataManual+Util.PrepareBot (SAIN.Components.BotComponent bot, System.Boolean sprinting) [0x00020] in <943dae2a4b18457287585f85a7e57d08>:0 
+  at SAIN.SAINComponent.Classes.Mover.BotPathDataManual.Start () [0x0000c] in <943dae2a4b18457287585f85a7e57d08>:0 
+  at SAIN.SAINComponent.Classes.Mover.SAINMoverClass.PathComplete (SAIN.SAINComponent.Classes.OperationResult result, SAIN.SAINComponent.Classes.Mover.IBotPathData pathData) [0x00023] in <943dae2a4b18457287585f85a7e57d08>:0 
+  at SAIN.SAINComponent.Classes.Mover.BotPathDataManual.Stop (System.Boolean success, System.String reason) [0x00014] in <943dae2a4b18457287585f85a7e57d08>:0 
+  at SAIN.SAINComponent.Classes.Mover.BotPathDataManual.Dispose () [0x00000] in <943dae2a4b18457287585f85a7e57d08>:0 
+  at SAIN.SAINComponent.Classes.Mover.SAINMoverClass.Dispose () [0x0000a] in <943dae2a4b18457287585f85a7e57d08>:0 
+  at SAIN.Components.BotComponent.Dispose () [0x00034] in <943dae2a4b18457287585f85a7e57d08>:0 ]
+[Error  :      SAIN] [SAIN.Components.BotComponent] : [[PlayerRemoved().RemoveBot().Dispose()]:] : [Dispose Class [SAIN.SAINComponent.Classes.Mover.SAINMoverClass] Error: System.NullReferenceException: Object reference not set to an instance of an object
+  at SAIN.SAINComponent.Classes.Mover.BotPathDataManual+Util.PrepareBot (SAIN.Components.BotComponent bot, System.Boolean sprinting) [0x00020] in <943dae2a4b18457287585f85a7e57d08>:0 
+  at SAIN.SAINComponent.Classes.Mover.BotPathDataManual.Start () [0x0000c] in <943dae2a4b18457287585f85a7e57d08>:0 
+  at SAIN.SAINComponent.Classes.Mover.SAINMoverClass.PathComplete (SAIN.SAINComponent.Classes.OperationResult result, SAIN.SAINComponent.Classes.Mover.IBotPathData pathData) [0x00023] in <943dae2a4b18457287585f85a7e57d08>:0 
+  at SAIN.SAINComponent.Classes.Mover.BotPathDataManual.Stop (System.Boolean success, System.String reason) [0x00014] in <943dae2a4b18457287585f85a7e57d08>:0 
+  at SAIN.SAINComponent.Classes.Mover.BotPathDataManual.Dispose () [0x00000] in <943dae2a4b18457287585f85a7e57d08>:0 
+  at SAIN.SAINComponent.Classes.Mover.SAINMoverClass.Dispose () [0x0000a] in <943dae2a4b18457287585f85a7e57d08>:0 
+  at SAIN.Components.BotComponent.Dispose () [0x00034] in <943dae2a4b18457287585f85a7e57d08>:0 ]
+[Info   :Fika.Server] ..:: Fika Server Session Statistics ::..
+[Info   :Fika.Server] Sent packets: 0
+[Info   :Fika.Server] Sent data: 0 B
+[Info   :Fika.Server] Received packets: 0
+[Info   :Fika.Server] Received data: 0 B
+[Info   :Fika.Server] Packet loss: 0%
+[Info   :NetManagerUtils] Destroyed FikaServer
+[Info   :RequestHandler] [REQUEST]: /raid/profile/scavsave
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /raid/profile/scavsave
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/raid/menu
+[Info   :NetManagerUtils] FikaServer has started!
+[Info   :Fika.Server] Starting server with SendRate: 20
+[Info   :NetManagerUtils] Creating CoopHandler...
+[Info   :Fika.Server] Started Fika Server
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/getRaidTime
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/getRaidTime
+[Info   :  CoopGame] Location: Sandbox
+[Info   :NetManagerUtils] Setting up game variables...
+[Info   :  CoopGame] Adding debug component...
+[Info   :  CoopGame] Local player created
+[Info   :  CoopGame] Starting task to wait for host to start the raid.
+[Info   :  CoopGame] Generating and initializing weather...
+[Info   :  CoopGame] Setting Season to: Summer
+[Warning:ModulePatch] __instance.BotHalloweenEvent._spawner is null skip Activate
+[Info   :ModulePatch] __instance.BotHalloweenEvent._spawner is not null run Activate
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/maxCap/Sandbox
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/maxCap/Sandbox
+[Info   :ModulePatch] Set max bot cap for: Sandbox from: 36 to: 14
+[Warning:DanW-QuestingBots] Waiting for LoadQuest until next frame... (Cycle times: 7, Total time: 7)
+[Info   :DanW-QuestingBots] 8 initial PMC groups will be generated (Min: 8, Max: 9)
+[Info   :DanW-QuestingBots] Max PMC's on the map (sandbox) at the same time: 7
+[Info   :DanW-QuestingBots] Spawn times for 15 PScavs: 27:30, 27:07, 26:31, 26:04, 25:51, 25:31, 24:05, 23:03, 22:54, 22:36, 19:31, 19:25, 16:42, 14:59, 14:46
+[Info   :DanW-QuestingBots] Max PScavs on the map (sandbox) at the same time: 7
+[Info   :DanW-QuestingBots] Generating 8 PMCs...
+[Info   :DanW-QuestingBots] Generating normal PMC group (Number of bots: 2)...
+[Info   :DanW-QuestingBots] Delaying the game start until bot generation finishes...
+[Warning: DynamicAI] QuestingBots detected, destroying DynamicAI component. Use QuestingBots AI limiter instead!
+[Info   :  CoopGame] All players are loaded, continuing...
+[Info   :  CoopGame] Running new spawn system.
+[Warning: Fika.Core] FreeCameraController::Awake: Failed to cache BattleUI
+[Info   :  CoopGame] MatchingType: GroupLeader, Raid Code: LL3HMJ
+[Warning:DanW-QuestingBots] Waiting for LoadQuest until next frame...done. (Cycle times: 7, 6, 2, Total time: 2626)
+[Info   :DanW-QuestingBots] Searching for EFT quest locations...
+[Warning:DanW-QuestingBots] Waiting for ProcessTrigger until next frame... (Cycle times: 6, Total time: 6)
+[Warning:DanW-QuestingBots] Waiting for ProcessTrigger until next frame...done. (Cycle times: 6, 4, Total time: 27)
+[Info   :DanW-QuestingBots] Searching for EFT quest locations...done.
+[Info   :DanW-QuestingBots] Loading custom quests...
+[Info   :DanW-QuestingBots] Loading custom quests...found 40 custom quests.
+[Info   :DanW-QuestingBots] Finished loading quest data.
+[Info   :DanW-QuestingBots] Finding static paths...
+[Warning:DanW-QuestingBots] Could not find a static path from (-40.54, 29.69, 56.05) to (-11.44, 29.69, 56.45) for TerraGroup Office Upstairs: Objective #6 in TerraGroup Office Upstairs
+[Warning:DanW-QuestingBots] Could not find a static path from (-40.54, 29.69, 56.05) to (-17.83, 29.69, 53.50) for TerraGroup Office Upstairs: Objective #7 in TerraGroup Office Upstairs
+[Warning:DanW-QuestingBots] Could not find a static path from (-40.54, 29.69, 56.05) to (-17.54, 29.69, 46.11) for TerraGroup Office Upstairs: Objective #8 in TerraGroup Office Upstairs
+[Warning:DanW-QuestingBots] Could not find a static path from (-40.54, 29.69, 56.05) to (-14.13, 29.71, 41.28) for TerraGroup Office Upstairs: Objective #9 in TerraGroup Office Upstairs
+[Warning:DanW-QuestingBots] Could not find a static path from (-40.54, 29.69, 56.05) to (-10.86, 29.69, 47.49) for TerraGroup Office Quest Room Camping: Objective #1 in TerraGroup Office Quest Room Camping
+[Info   :DanW-QuestingBots] Finding static paths...done.
+[Info   :DanW-QuestingBots] Waiting for 2 bot generators...
+[Info   :DanW-QuestingBots] Generating normal PMC group (Number of bots: 2)...done. (Dirtbikercj, Holynevil)
+[Info   :DanW-QuestingBots] Generating normal PMC group (Number of bots: 2)...
+[Info   :DanW-QuestingBots] Generating normal PMC group (Number of bots: 2)...done. (Aethas, nooky)
+[Info   :DanW-QuestingBots] Generating normal PMC group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating normal PMC group (Number of bots: 1)...done. (cardsmen)
+[Info   :DanW-QuestingBots] Generating easy PMC group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating easy PMC group (Number of bots: 1)...done. (Life)
+[Info   :DanW-QuestingBots] Generating normal PMC group (Number of bots: 2)...
+[Info   :DanW-QuestingBots] Generating normal PMC group (Number of bots: 2)...done. (tyvas, Mr_Pudlik)
+[Info   :DanW-QuestingBots] Generating 8 PMCs...done.
+[Info   :DanW-QuestingBots] Generating 15 PScavs...
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...done. (Петька Денди)
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...done. (Витек Якубович)
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...done. (Мишган ЧПУ)
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...done. (Сёма Сутенер)
+[Info   :DanW-QuestingBots] Generating hard PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating hard PScav group (Number of bots: 1)...done. (Денис Живчик)
+[Info   :DanW-QuestingBots] Generating hard PScav group (Number of bots: 3)...
+[Info   :DanW-QuestingBots] Generating hard PScav group (Number of bots: 3)...done. (Батыр РХБЗ, Ботир Скульптор, Влад Шуруп)
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...done. (Гиви Секач)
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating easy PScav group (Number of bots: 1)...done. (Платон Додик)
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...done. (Митрофан Ипотека)
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...done. (Паша Минский)
+[Info   :DanW-QuestingBots] Generating hard PScav group (Number of bots: 2)...
+[Info   :DanW-QuestingBots] Generating hard PScav group (Number of bots: 2)...done. (Аристарх Саратовский, Вася Минтай)
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...
+[Info   :DanW-QuestingBots] Generating normal PScav group (Number of bots: 1)...done. (Мэн Мутнорылый)
+[Info   :DanW-QuestingBots] Generating 15 PScavs...done.
+[Info   :DanW-QuestingBots] All bot generators have finished.
+[Error  :  CoopGame] SyncTransitControllers: TransitController was null!
+[Info   :  CoopGame] [SERVER] SpawnPoint: 8991994e-2dd2-4335-8fb9-5f906a80c0f8, InfiltrationPoint: west
+[Info   :DanW-QuestingBots] Spawned all missed boss waves
+[Info   :DanW-QuestingBots] Trying to spawn 4 PMC group(s)...
+[Info   :DanW-QuestingBots] Spawning PMC group at (101.81, 28.14, 317.12), (103.80, 28.14, 316.12)...
+[Info   :DanW-QuestingBots] Spawned bot Dirtbikercj (Name: Bot25, Level: 3)
+[Info   :DanW-QuestingBots] Spawned bot Holynevil (Name: Bot26, Level: 7)
+[Info   :DanW-QuestingBots] Spawning PMC group at (-4.45, 23.89, -58.90), (-2.80, 23.89, -59.58)...
+[Info   :DanW-QuestingBots] Spawned bot Aethas (Name: Bot27, Level: 13)
+[Info   :DanW-QuestingBots] Spawned bot nooky (Name: Bot28, Level: 13)
+[Info   :DanW-QuestingBots] Spawning PMC group at (36.95, 23.47, 146.98)...
+[Info   :DanW-QuestingBots] Spawned bot cardsmen (Name: Bot29, Level: 4)
+[Info   :DanW-QuestingBots] Spawning PMC group at (180.58, 16.20, 123.16)...
+[Info   :DanW-QuestingBots] Spawned bot Life (Name: Bot30, Level: 14)
+[Info   :DanW-QuestingBots] Trying to spawn 4 PMC group(s)...done.
+[Warning:ModulePatch] Updated spt bot nooky: pmcUSEC to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot nooky (Name: Bot28, Level: 13): pmcUSEC
+[Info   :DanW-QuestingBots] Spawned bot #1: nooky (Name: Bot28, Level: 13) (Usec)
+[Info   :DanW-QuestingBots] Setting objective for nooky (Name: Bot28, Level: 13) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot nooky (Name: Bot28, Level: 13) is now doing Step #1 for objective Zone Sandbox_5_DeadGroup_exploration in quest Спасение крота
+[Warning:ModulePatch] Updated spt bot cardsmen: pmcUSEC to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot cardsmen (Name: Bot29, Level: 4): pmcUSEC
+[Info   :DanW-QuestingBots] Spawned bot #2: cardsmen (Name: Bot29, Level: 4) (Usec)
+[Warning:ModulePatch] Updated spt bot Holynevil: pmcBEAR to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Holynevil (Name: Bot26, Level: 7): pmcBEAR
+[Info   :DanW-QuestingBots] Spawned bot #3: Holynevil (Name: Bot26, Level: 7) (Bear)
+[Info   :DanW-QuestingBots] Setting objective for cardsmen (Name: Bot29, Level: 4) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot cardsmen (Name: Bot29, Level: 4) is now doing Step #1 for objective Zone Sandbox_mine_quest in quest Тарков не прощает ошибок
+[Info   :DanW-QuestingBots] Setting objective for Holynevil (Name: Bot26, Level: 7) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Holynevil (Name: Bot26, Level: 7) is now doing Step #1 for objective Safe outside of Giovanni Teducci: Objective #1 in quest Safe outside of Giovanni Teducci
+[Warning:ModulePatch] Updated spt bot Life: pmcBEAR to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Life (Name: Bot30, Level: 14): pmcBEAR
+[Info   :DanW-QuestingBots] Spawned bot #4: Life (Name: Bot30, Level: 14) (Bear)
+[Info   :DanW-QuestingBots] Setting objective for Life (Name: Bot30, Level: 14) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Life (Name: Bot30, Level: 14) is now doing Step #1 for objective Tartowers: Objective #4 in quest Tartowers
+[Warning:ModulePatch] Updated spt bot Dirtbikercj: pmcBEAR to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Dirtbikercj (Name: Bot25, Level: 3): pmcBEAR
+[Info   :DanW-QuestingBots] Spawned bot #5: Dirtbikercj (Name: Bot25, Level: 3) (Bear)
+[Info   :DanW-QuestingBots] Setting objective for Dirtbikercj (Name: Bot25, Level: 3) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Dirtbikercj (Name: Bot25, Level: 3) is now doing Step #1 for objective Olive Restaurant: Objective #6 in quest Olive Restaurant
+[Warning:ModulePatch] Updated spt bot Aethas: pmcUSEC to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Aethas (Name: Bot27, Level: 13): pmcUSEC
+[Info   :DanW-QuestingBots] Spawned bot #6: Aethas (Name: Bot27, Level: 13) (Usec)
+[Info   :DanW-QuestingBots] Bot nooky (Name: Bot28, Level: 13) is now a follower for Aethas (Name: Bot27, Level: 13)
+[Info   :DanW-QuestingBots] Bot Holynevil (Name: Bot26, Level: 7) is now a follower for Dirtbikercj (Name: Bot25, Level: 3)
+[Info   :DanW-QuestingBots] Setting objective for Aethas (Name: Bot27, Level: 13) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Aethas (Name: Bot27, Level: 13) is now doing Step #1 for objective Zone Sandbox_5_DeadGroup_exploration in quest Спасение крота
+[Info   :DanW-QuestingBots] Bot nooky (Name: Bot28, Level: 13) is no longer doing Step #1 for objective Zone Sandbox_5_DeadGroup_exploration in quest Спасение крота
+[Info   :DanW-QuestingBots] Bot nooky (Name: Bot28, Level: 13) is no longer doing Step #1 for objective Zone Sandbox_5_DeadGroup_exploration in quest Спасение крота
+[Info   :DanW-QuestingBots] Bot Dirtbikercj (Name: Bot25, Level: 3) cannot find a complete path to its objective (Step #1 for objective Olive Restaurant: Objective #6 in quest Olive Restaurant). Trying anyway. Distance from end of path to objective: 4.519159
+[Info   :DanW-QuestingBots] Bot nooky (Name: Bot28, Level: 13) is no longer doing Step #1 for objective Zone Sandbox_5_DeadGroup_exploration in quest Спасение крота
+[Info   :DanW-QuestingBots] Bot Life (Name: Bot30, Level: 14) has completed Step #1 for objective Tartowers: Objective #4 in quest Tartowers
+[Info   :DanW-QuestingBots] Bot Life (Name: Bot30, Level: 14) is now doing Step #1 for objective Tartowers: Objective #1 in quest Tartowers
+[Warning:DanW-QuestingBots] nooky (Name: Bot28, Level: 13) is stuck. Trying to jump...
+[Info   :DanW-QuestingBots] Bot Aethas (Name: Bot27, Level: 13) has completed Step #1 for objective Zone Sandbox_5_DeadGroup_exploration in quest Спасение крота
+[Warning:ModulePatch] Updated assault bot Антоха Сильвестр to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Антоха Сильвестр (Name: Bot32, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #7: Антоха Сильвестр (Name: Bot32, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot Гоги Пианист to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Гоги Пианист (Name: Bot31, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #8: Гоги Пианист (Name: Bot31, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot Кися Чекист to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Кися Чекист (Name: Bot33, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #9: Кися Чекист (Name: Bot33, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot Вован Ржавый to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Вован Ржавый (Name: Bot34, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #10: Вован Ржавый (Name: Bot34, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot Юстин Шпала to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Юстин Шпала (Name: Bot37, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #11: Юстин Шпала (Name: Bot37, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot Паша Хорс to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Паша Хорс (Name: Bot38, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #12: Паша Хорс (Name: Bot38, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot Леня Красавец to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Леня Красавец (Name: Bot36, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #13: Леня Красавец (Name: Bot36, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot Стас Знахарь to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Стас Знахарь (Name: Bot35, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #14: Стас Знахарь (Name: Bot35, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Bot Aethas (Name: Bot27, Level: 13) is now doing Step #1 for objective Zone Sandbox_5_Laborant_exploration in quest Спасение крота
+[Info   :DanW-QuestingBots] Initial spawn type for bot Спиридон Всемогущий (Name: Bot40, Level: 1): assaultGroup
+[Info   :DanW-QuestingBots] Spawned bot #15: Спиридон Всемогущий (Name: Bot40, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot Эльдар Шуруп to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Эльдар Шуруп (Name: Bot39, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #16: Эльдар Шуруп (Name: Bot39, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Леня Красавец (Name: Bot36, Level: 1) (Scav) was killed by Dirtbikercj (Name: Bot25, Level: 3) (PMC). Initial PMC's remaining: 6
+[Warning:ModulePatch] Updated assault bot Володя Рыло to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Володя Рыло (Name: Bot41, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #17: Володя Рыло (Name: Bot41, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Стас Знахарь (Name: Bot35, Level: 1) (Scav) was killed by nooky (Name: Bot28, Level: 13) (PMC). Initial PMC's remaining: 6
+[Warning:ModulePatch] Updated assault bot Юлиан Подзаборный to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Юлиан Подзаборный (Name: Bot45, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #18: Юлиан Подзаборный (Name: Bot45, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot Марат Вольфенштейн to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Марат Вольфенштейн (Name: Bot43, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #19: Марат Вольфенштейн (Name: Bot43, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot Платон Женатик to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Платон Женатик (Name: Bot42, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #20: Платон Женатик (Name: Bot42, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot Савелий Фрол to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Савелий Фрол (Name: Bot44, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #21: Савелий Фрол (Name: Bot44, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Спиридон Всемогущий (Name: Bot40, Level: 1) (Scav) was killed by nooky (Name: Bot28, Level: 13) (PMC). Initial PMC's remaining: 6
+[Info   :DanW-QuestingBots] Савелий Фрол (Name: Bot44, Level: 1) (Scav) was killed by Dirtbikercj (Name: Bot25, Level: 3) (PMC). Initial PMC's remaining: 6
+[Info   :DanW-QuestingBots] Паша Хорс (Name: Bot38, Level: 1) (Scav) was killed by Skippie (Name: Main_PlayerSuperior(Clone), Level: 4) (PMC). Initial PMC's remaining: 6
+[Info   :DanW-QuestingBots] Володя Рыло (Name: Bot41, Level: 1) (Scav) was killed by Aethas (Name: Bot27, Level: 13) (PMC). Initial PMC's remaining: 6
+[Warning:ModulePatch] Updated assault bot Васян Ресторатор to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Васян Ресторатор (Name: Bot47, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #22: Васян Ресторатор (Name: Bot47, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot Федосей Запасной to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Федосей Запасной (Name: Bot46, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #23: Федосей Запасной (Name: Bot46, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Юстин Шпала (Name: Bot37, Level: 1) (Scav) was killed by Dirtbikercj (Name: Bot25, Level: 3) (PMC). Initial PMC's remaining: 6
+[Info   :DanW-QuestingBots] Гоги Пианист (Name: Bot31, Level: 1) (Scav) was killed by Aethas (Name: Bot27, Level: 13) (PMC). Initial PMC's remaining: 6
+[Warning:ModulePatch] Updated assault bot Гриша Доцент to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Гриша Доцент (Name: Bot49, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #24: Гриша Доцент (Name: Bot49, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot Филя Бугурт to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Филя Бугурт (Name: Bot48, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #25: Филя Бугурт (Name: Bot48, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Вован Ржавый (Name: Bot34, Level: 1) (Scav) was killed by nooky (Name: Bot28, Level: 13) (PMC). Initial PMC's remaining: 6
+[Info   :DanW-QuestingBots] Dirtbikercj (Name: Bot25, Level: 3) (PMC) was killed by Гриша Доцент (Name: Bot49, Level: 1) (Scav). Initial PMC's remaining: 5
+[Info   :DanW-QuestingBots] Bot Dirtbikercj (Name: Bot25, Level: 3) has failed Step #1 for objective Olive Restaurant: Objective #6 in quest Olive Restaurant
+[Warning: DynamicAI] Could not remove Bot25 from bots list.
+[Info   :DanW-QuestingBots] Trying to spawn 1 PMC group(s)...
+[Info   :DanW-QuestingBots] Spawning PMC group at (147.74, 23.30, 253.63), (144.95, 22.95, 253.29)...
+[Info   :DanW-QuestingBots] Spawned bot tyvas (Name: Bot50, Level: 2)
+[Info   :DanW-QuestingBots] Spawned bot Mr_Pudlik (Name: Bot51, Level: 9)
+[Info   :DanW-QuestingBots] Trying to spawn 1 PMC group(s)...done.
+[Warning:ModulePatch] Updated spt bot tyvas: pmcUSEC to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot tyvas (Name: Bot50, Level: 2): pmcUSEC
+[Info   :DanW-QuestingBots] Spawned bot #26: tyvas (Name: Bot50, Level: 2) (Usec)
+[Info   :DanW-QuestingBots] Setting objective for tyvas (Name: Bot50, Level: 2) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot tyvas (Name: Bot50, Level: 2) is now doing Step #1 for objective Capital Insight: Objective #4 in quest Capital Insight
+[Warning:ModulePatch] Updated spt bot Mr_Pudlik: pmcUSEC to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Mr_Pudlik (Name: Bot51, Level: 9): pmcUSEC
+[Info   :DanW-QuestingBots] Spawned bot #27: Mr_Pudlik (Name: Bot51, Level: 9) (Usec)
+[Info   :DanW-QuestingBots] Setting objective for Mr_Pudlik (Name: Bot51, Level: 9) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Mr_Pudlik (Name: Bot51, Level: 9) is now doing Step #1 for objective Zone Sandbox_2_AGS_exploration in quest Стрельба по баночкам
+[Info   :DanW-QuestingBots] Bot Mr_Pudlik (Name: Bot51, Level: 9) is now a follower for tyvas (Name: Bot50, Level: 2)
+[Info   :DanW-QuestingBots] Гриша Доцент (Name: Bot49, Level: 1) (Scav) was killed by Holynevil (Name: Bot26, Level: 7) (PMC). Initial PMC's remaining: 7
+[Warning:ModulePatch] Updated assault bot Женя СССР to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Женя СССР (Name: Bot53, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #28: Женя СССР (Name: Bot53, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot Гоги Корч to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Гоги Корч (Name: Bot52, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #29: Гоги Корч (Name: Bot52, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Гоги Корч (Name: Bot52, Level: 1) (Scav) was killed by Aethas (Name: Bot27, Level: 13) (PMC). Initial PMC's remaining: 7
+[Info   :DanW-QuestingBots] Life (Name: Bot30, Level: 14) (PMC) was killed by Skippie (Name: Main_PlayerSuperior(Clone), Level: 4) (PMC). Initial PMC's remaining: 6
+[Info   :DanW-QuestingBots] Bot Life (Name: Bot30, Level: 14) has failed Step #1 for objective Tartowers: Objective #1 in quest Tartowers
+[Warning: DynamicAI] Could not remove Bot30 from bots list.
+[Info   :DanW-QuestingBots] Mr_Pudlik (Name: Bot51, Level: 9) (PMC) was killed by Holynevil (Name: Bot26, Level: 7) (PMC). Initial PMC's remaining: 5
+[Info   :DanW-QuestingBots] Bot Mr_Pudlik (Name: Bot51, Level: 9) has failed Step #1 for objective Zone Sandbox_2_AGS_exploration in quest Стрельба по баночкам
+[Warning: DynamicAI] Could not remove Bot51 from bots list.
+[Info   :DanW-QuestingBots] Trying to spawn 1 PScav group(s)...
+[Info   :DanW-QuestingBots] Spawning PScav group at (184.96, 17.21, -8.59)...
+[Info   :DanW-QuestingBots] Spawned bot Мишган ЧПУ (Name: Bot54, Level: 1)
+[Info   :DanW-QuestingBots] Trying to spawn 1 PScav group(s)...done.
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Мишган ЧПУ (Name: Bot54, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #30: Мишган ЧПУ (Name: Bot54, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Setting objective for Мишган ЧПУ (Name: Bot54, Level: 1) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Мишган ЧПУ (Name: Bot54, Level: 1) is now doing Step #1 for objective Mira Avenue Benches: Objective #2 in quest Mira Avenue Benches
+[Error  :LootingBots] ([assault] Bot54) Has been stuck trying to reach: Труп гражданского. Ignoring
+[Info   :DanW-QuestingBots] Bot Мишган ЧПУ (Name: Bot54, Level: 1) has completed Step #1 for objective Mira Avenue Benches: Objective #2 in quest Mira Avenue Benches
+[Info   :DanW-QuestingBots] Bot Мишган ЧПУ (Name: Bot54, Level: 1) is now doing Step #1 for objective Mira Avenue Benches: Objective #1 in quest Mira Avenue Benches
+[Info   :DanW-QuestingBots] Федосей Запасной (Name: Bot46, Level: 1) (Scav) was killed by Skippie (Name: Main_PlayerSuperior(Clone), Level: 4) (PMC). Initial PMC's remaining: 5
+[Error  :LootingBots] ([assault] Bot54) Has been stuck trying to reach: Труп Дикого. Ignoring
+[Warning:ModulePatch] Updated assault bot Колян Шкаф to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Колян Шкаф (Name: Bot55, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #31: Колян Шкаф (Name: Bot55, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Trying to spawn 1 PScav group(s)...
+[Info   :DanW-QuestingBots] Spawning PScav group at (74.49, 14.18, 10.55)...
+[Info   :DanW-QuestingBots] Spawned bot Денис Живчик (Name: Bot56, Level: 1)
+[Info   :DanW-QuestingBots] Trying to spawn 1 PScav group(s)...done.
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/getBotBehaviours/
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/getBotBehaviours/
+[Warning:ModulePatch] Cached ai brain weights in client
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Денис Живчик (Name: Bot56, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #32: Денис Живчик (Name: Bot56, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Setting objective for Денис Живчик (Name: Bot56, Level: 1) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Денис Живчик (Name: Bot56, Level: 1) is now doing Step #1 for objective Tarbank Upstairs: Objective #3 in quest Tarbank Upstairs
+[Info   :DanW-QuestingBots] Антоха Сильвестр (Name: Bot32, Level: 1) (Scav) was killed by nooky (Name: Bot28, Level: 13) (PMC). Initial PMC's remaining: 5
+[Info   :DanW-QuestingBots] tyvas (Name: Bot50, Level: 2) (PMC) was killed by Holynevil (Name: Bot26, Level: 7) (PMC). Initial PMC's remaining: 4
+[Info   :DanW-QuestingBots] Bot tyvas (Name: Bot50, Level: 2) has failed Step #1 for objective Capital Insight: Objective #4 in quest Capital Insight
+[Warning: DynamicAI] Could not remove Bot50 from bots list.
+[Info   :DanW-QuestingBots] cardsmen (Name: Bot29, Level: 4) (PMC) was killed by Денис Живчик (Name: Bot56, Level: 1) (Scav). Initial PMC's remaining: 3
+[Info   :DanW-QuestingBots] Bot cardsmen (Name: Bot29, Level: 4) has failed Step #1 for objective Zone Sandbox_mine_quest in quest Тарков не прощает ошибок
+[Warning: DynamicAI] Could not remove Bot29 from bots list.
+[Error  :LootingBots] ([pmcBot] Bot26) Failed to move Штык-нож ER FULCRUM BAYONET to main
+[Info   :DanW-QuestingBots] Bot Holynevil (Name: Bot26, Level: 7) has completed Step #1 for objective Safe outside of Giovanni Teducci: Objective #1 in quest Safe outside of Giovanni Teducci
+[Info   :DanW-QuestingBots] Bot Holynevil (Name: Bot26, Level: 7) is now doing Step #1 for objective Zone Sandbox_2_AGS_exploration in quest Стрельба по баночкам
+[Info   :DanW-QuestingBots] Денис Живчик (Name: Bot56, Level: 1) (Scav) was killed by Skippie (Name: Main_PlayerSuperior(Clone), Level: 4) (PMC). Initial PMC's remaining: 3
+[Info   :DanW-QuestingBots] Bot Денис Живчик (Name: Bot56, Level: 1) has failed Step #1 for objective Tarbank Upstairs: Objective #3 in quest Tarbank Upstairs
+[Warning: DynamicAI] Could not remove Bot56 from bots list.
+[Info   :DanW-QuestingBots] Trying to spawn 1 PScav group(s)...
+[Info   :DanW-QuestingBots] Spawning PScav group at (143.83, 22.74, -71.39), (143.33, 22.74, -69.41), (142.85, 22.74, -67.64)...
+[Info   :DanW-QuestingBots] Spawned bot Батыр РХБЗ (Name: Bot57, Level: 1)
+[Info   :DanW-QuestingBots] Spawned bot Ботир Скульптор (Name: Bot58, Level: 1)
+[Info   :DanW-QuestingBots] Spawned bot Влад Шуруп (Name: Bot59, Level: 1)
+[Info   :DanW-QuestingBots] Trying to spawn 1 PScav group(s)...done.
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Влад Шуруп (Name: Bot59, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #33: Влад Шуруп (Name: Bot59, Level: 1) (Savage)
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Батыр РХБЗ (Name: Bot57, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #34: Батыр РХБЗ (Name: Bot57, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Setting objective for Влад Шуруп (Name: Bot59, Level: 1) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Влад Шуруп (Name: Bot59, Level: 1) is now doing Step #1 for objective Underground North: Objective #3 in quest Underground North
+[Info   :DanW-QuestingBots] Setting objective for Батыр РХБЗ (Name: Bot57, Level: 1) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Батыр РХБЗ (Name: Bot57, Level: 1) is now doing Step #1 for objective Mira Avenue Benches: Objective #1 in quest Mira Avenue Benches
+[Info   :DanW-QuestingBots] Bot Батыр РХБЗ (Name: Bot57, Level: 1) cannot find a complete path to its objective (Step #1 for objective Mira Avenue Benches: Objective #1 in quest Mira Avenue Benches). Trying anyway. Distance from end of path to objective: 24.73425
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Ботир Скульптор (Name: Bot58, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #35: Ботир Скульптор (Name: Bot58, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Bot Влад Шуруп (Name: Bot59, Level: 1) is now a follower for Батыр РХБЗ (Name: Bot57, Level: 1)
+[Info   :DanW-QuestingBots] Bot Ботир Скульптор (Name: Bot58, Level: 1) is now a follower for Батыр РХБЗ (Name: Bot57, Level: 1)
+[Info   :DanW-QuestingBots] Setting objective for Ботир Скульптор (Name: Bot58, Level: 1) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Ботир Скульптор (Name: Bot58, Level: 1) is now doing Step #1 for objective Skyside Hotel: Objective #4 in quest Skyside Hotel
+[Info   :DanW-QuestingBots] Bot Влад Шуруп (Name: Bot59, Level: 1) is no longer doing Step #1 for objective Underground North: Objective #3 in quest Underground North
+[Info   :DanW-QuestingBots] Bot Влад Шуруп (Name: Bot59, Level: 1) is no longer doing Step #1 for objective Underground North: Objective #3 in quest Underground North
+[Info   :DanW-QuestingBots] Bot Влад Шуруп (Name: Bot59, Level: 1) is no longer doing Step #1 for objective Underground North: Objective #3 in quest Underground North
+[Warning:ModulePatch] Updated assault bot Кэл Статтеринг to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Кэл Статтеринг (Name: Bot60, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #36: Кэл Статтеринг (Name: Bot60, Level: 1) (Savage)
+[Error  :LootingBots] ([pmcBot] Bot26) Failed to move Штык-нож ER FULCRUM BAYONET to main
+[Warning:DanW-QuestingBots] Bot Батыр РХБЗ (Name: Bot57, Level: 1) cannot find a complete path to its objective (Step #1 for objective Mira Avenue Benches: Objective #1 in quest Mira Avenue Benches). Giving up. Remaining distance to objective: 31.18275
+[Info   :DanW-QuestingBots] Bot Батыр РХБЗ (Name: Bot57, Level: 1) has failed Step #1 for objective Mira Avenue Benches: Objective #1 in quest Mira Avenue Benches
+[Info   :DanW-QuestingBots] Bot Батыр РХБЗ (Name: Bot57, Level: 1) is now doing Step #1 for objective Mira Avenue Benches: Objective #2 in quest Mira Avenue Benches
+[Info   :DanW-QuestingBots] Bot Батыр РХБЗ (Name: Bot57, Level: 1) cannot find a complete path to its objective (Step #1 for objective Mira Avenue Benches: Objective #2 in quest Mira Avenue Benches). Trying anyway. Distance from end of path to objective: 38.59348
+[Error  :LootingBots] ([pmcBot] Bot26) Failed to move Kiba Arms Tactical Tomahawk to main
+[Info   :DanW-QuestingBots] Bot Holynevil (Name: Bot26, Level: 7) has completed Step #1 for objective Zone Sandbox_2_AGS_exploration in quest Стрельба по баночкам
+[Error  :LootingBots] ([assault] Bot59) Has been stuck trying to reach: Труп гражданского. Ignoring
+[Error  :LootingBots] ([assault] Bot57) Has been stuck trying to reach: Труп Дикого. Ignoring
+[Warning:DanW-QuestingBots] Bot Батыр РХБЗ (Name: Bot57, Level: 1) cannot find a complete path to its objective (Step #1 for objective Mira Avenue Benches: Objective #2 in quest Mira Avenue Benches). Giving up. Remaining distance to objective: 38.61085
+[Info   :DanW-QuestingBots] Bot Батыр РХБЗ (Name: Bot57, Level: 1) has failed Step #1 for objective Mira Avenue Benches: Objective #2 in quest Mira Avenue Benches
+[Info   :DanW-QuestingBots] Bot Батыр РХБЗ (Name: Bot57, Level: 1) is now doing Step #1 for objective Emercom Checkpoint: Objective #2 in quest Emercom Checkpoint
+[Error  :LootingBots] ([assault] Bot57) Has been stuck trying to reach: Труп гражданского. Ignoring
+[Error  :LootingBots] ([assault] Bot59) Has been stuck trying to reach: Труп Дикого. Ignoring
+[Info   :DanW-QuestingBots] Bot Holynevil (Name: Bot26, Level: 7) is now doing Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Стрельба по баночкам
+[Info   :DanW-QuestingBots] Bot Holynevil (Name: Bot26, Level: 7) cannot find a complete path to its objective (Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Стрельба по баночкам). Trying anyway. Distance from end of path to objective: 7.591574
+[Info   :DanW-QuestingBots] Марат Вольфенштейн (Name: Bot43, Level: 1) (Scav) was killed by Aethas (Name: Bot27, Level: 13) (PMC). Initial PMC's remaining: 3
+[Warning:ModulePatch] Updated assault bot Марат Сиська to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Марат Сиська (Name: Bot61, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #37: Марат Сиська (Name: Bot61, Level: 1) (Savage)
+[Warning:ModulePatch] Updated assault bot Самуил Зебра to use: assault brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Самуил Зебра (Name: Bot62, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #38: Самуил Зебра (Name: Bot62, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Aethas (Name: Bot27, Level: 13) (PMC) was killed by Эльдар Шуруп (Name: Bot39, Level: 1) (Scav). Initial PMC's remaining: 2
+[Info   :DanW-QuestingBots] Bot Aethas (Name: Bot27, Level: 13) has failed Step #1 for objective Zone Sandbox_5_Laborant_exploration in quest Спасение крота
+[Warning: DynamicAI] Could not remove Bot27 from bots list.
+[Info   :DanW-QuestingBots] Trying to spawn 1 PScav group(s)...
+[Info   :DanW-QuestingBots] Spawning PScav group at (101.81, 28.14, 317.12)...
+[Info   :DanW-QuestingBots] Spawned bot Петька Денди (Name: Bot63, Level: 1)
+[Info   :DanW-QuestingBots] Trying to spawn 1 PScav group(s)...done.
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Петька Денди (Name: Bot63, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #39: Петька Денди (Name: Bot63, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Setting objective for Петька Денди (Name: Bot63, Level: 1) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Петька Денди (Name: Bot63, Level: 1) is now doing Step #1 for objective Capital Insight: Objective #2 in quest Capital Insight
+[Error  :LootingBots] ([assault] Bot57) Has been stuck trying to reach: Труп Дикого. Ignoring
+[Info   :DanW-QuestingBots] Bot Петька Денди (Name: Bot63, Level: 1) has completed Step #1 for objective Capital Insight: Objective #2 in quest Capital Insight
+[Error  :LootingBots] ([assault] Bot59) Has been stuck trying to reach: Труп Дикого. Ignoring
+[Info   :DanW-QuestingBots] Bot Петька Денди (Name: Bot63, Level: 1) is now doing Step #1 for objective Capital Insight: Objective #3 in quest Capital Insight
+[Error  :LootingBots] ([assault] Bot60) Has been stuck trying to reach: Патронный ящик. Ignoring
+[Info   :DanW-QuestingBots] Марат Сиська (Name: Bot61, Level: 1) (Scav) was killed by Skippie (Name: Main_PlayerSuperior(Clone), Level: 4) (PMC). Initial PMC's remaining: 2
+[Info   :DanW-QuestingBots] Влад Шуруп (Name: Bot59, Level: 1) (Scav) was killed by Skippie (Name: Main_PlayerSuperior(Clone), Level: 4) (PMC). Initial PMC's remaining: 2
+[Info   :DanW-QuestingBots] Bot Влад Шуруп (Name: Bot59, Level: 1) has failed Step #1 for objective Underground North: Objective #3 in quest Underground North
+[Warning: DynamicAI] Could not remove Bot59 from bots list.
+[Info   :DanW-QuestingBots] Trying to spawn 1 PScav group(s)...
+[Info   :DanW-QuestingBots] Spawning PScav group at (101.81, 28.14, 317.12)...
+[Info   :DanW-QuestingBots] Spawned bot Сёма Сутенер (Name: Bot64, Level: 1)
+[Info   :DanW-QuestingBots] Trying to spawn 1 PScav group(s)...done.
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Сёма Сутенер (Name: Bot64, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #40: Сёма Сутенер (Name: Bot64, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Setting objective for Сёма Сутенер (Name: Bot64, Level: 1) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Сёма Сутенер (Name: Bot64, Level: 1) is now doing Step #1 for objective Safe outside of Giovanni Teducci: Objective #1 in quest Safe outside of Giovanni Teducci
+[Info   :DanW-QuestingBots] Holynevil (Name: Bot26, Level: 7) (PMC) was killed by Skippie (Name: Main_PlayerSuperior(Clone), Level: 4) (PMC). Initial PMC's remaining: 1
+[Info   :DanW-QuestingBots] Bot Holynevil (Name: Bot26, Level: 7) has failed Step #1 for objective Zone Sandbox_2_Kord_exploration in quest Стрельба по баночкам
+[Warning: DynamicAI] Could not remove Bot26 from bots list.
+[Info   :DanW-QuestingBots] Trying to spawn 1 PScav group(s)...
+[Info   :DanW-QuestingBots] Spawning PScav group at (42.02, 23.28, -104.49)...
+[Info   :DanW-QuestingBots] Spawned bot Витек Якубович (Name: Bot65, Level: 1)
+[Info   :DanW-QuestingBots] Trying to spawn 1 PScav group(s)...done.
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Витек Якубович (Name: Bot65, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #41: Витек Якубович (Name: Bot65, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Setting objective for Витек Якубович (Name: Bot65, Level: 1) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Витек Якубович (Name: Bot65, Level: 1) is now doing Step #1 for objective TerraGroup Garage: Objective #1 in quest TerraGroup Garage
+[Warning:DanW-QuestingBots] Сёма Сутенер (Name: Bot64, Level: 1) is stuck. Trying to jump...
+[Warning:DanW-QuestingBots] Сёма Сутенер (Name: Bot64, Level: 1) is stuck. Trying to jump...
+[Info   :DanW-QuestingBots] Bot Петька Денди (Name: Bot63, Level: 1) cannot find a complete path to its objective (Step #1 for objective Capital Insight: Objective #3 in quest Capital Insight). Trying anyway. Distance from end of path to objective: 2.953848
+[Error  :LootingBots] ([pmcBot] Bot64) Failed to move Штык-нож ER FULCRUM BAYONET to main
+[Info   :DanW-QuestingBots] Bot Сёма Сутенер (Name: Bot64, Level: 1) has completed Step #1 for objective Safe outside of Giovanni Teducci: Objective #1 in quest Safe outside of Giovanni Teducci
+[Info   :DanW-QuestingBots] Bot Сёма Сутенер (Name: Bot64, Level: 1) is now doing Step #1 for objective Capital Insight Stairwell Camping: Objective #1 in quest Capital Insight Stairwell Camping
+[Info   :DanW-QuestingBots] Bot Мишган ЧПУ (Name: Bot54, Level: 1) has completed Step #1 for objective Mira Avenue Benches: Objective #1 in quest Mira Avenue Benches
+[Info   :DanW-QuestingBots] Мишган ЧПУ (Name: Bot54, Level: 1) has been performing quest Mira Avenue Benches for 807.1712221s and will get a new one.
+[Error  :DanW-QuestingBots] Мишган ЧПУ (Name: Bot54, Level: 1) could not select any of the following quests: 
+[Info   :DanW-QuestingBots] Мишган ЧПУ (Name: Bot54, Level: 1) is no longer allowed to quest.
+[Warning:DanW-QuestingBots] Мишган ЧПУ (Name: Bot54, Level: 1) cannot select any quests. Extracting instead...
+[Error  :LootingBots] ([pmcBot] Bot64) Failed to move Штык-нож ER FULCRUM BAYONET to 3
+[Error  :LootingBots] ([assault] Bot39) Has been stuck trying to reach: Труп Дикого. Ignoring
+[Error  :LootingBots] ([assault] Bot33) Has been stuck trying to reach: Труп Дикого. Ignoring
+[Error  :LootingBots] ([assault] Bot33) Has been stuck trying to reach: Труп Дикого. Ignoring
+[Info   :DanW-QuestingBots] Сёма Сутенер (Name: Bot64, Level: 1) (Scav) was killed by Skippie (Name: Main_PlayerSuperior(Clone), Level: 4) (PMC). Initial PMC's remaining: 1
+[Info   :DanW-QuestingBots] Bot Сёма Сутенер (Name: Bot64, Level: 1) has failed Step #1 for objective Capital Insight Stairwell Camping: Objective #1 in quest Capital Insight Stairwell Camping
+[Warning: DynamicAI] Could not remove Bot64 from bots list.
+[Info   :DanW-QuestingBots] nooky (Name: Bot28, Level: 13) (PMC) was killed by Женя СССР (Name: Bot53, Level: 1) (Scav). Initial PMC's remaining: 0
+[Info   :DanW-QuestingBots] Bot nooky (Name: Bot28, Level: 13) has failed Step #1 for objective Zone Sandbox_5_DeadGroup_exploration in quest Спасение крота
+[Warning: DynamicAI] Could not remove Bot28 from bots list.
+[Info   :DanW-QuestingBots] Trying to spawn 2 PScav group(s)...
+[Info   :DanW-QuestingBots] Spawning PScav group at (38.43, 23.44, 149.07)...
+[Info   :DanW-QuestingBots] Spawned bot Гиви Секач (Name: Bot66, Level: 1)
+[Info   :DanW-QuestingBots] Spawning PScav group at (127.27, 23.20, 186.03)...
+[Info   :DanW-QuestingBots] Spawned bot Платон Додик (Name: Bot67, Level: 1)
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/getBotBehaviours/
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/getBotBehaviours/
+[Warning:ModulePatch] Cached ai brain weights in client
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Гиви Секач (Name: Bot66, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #42: Гиви Секач (Name: Bot66, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Trying to spawn 2 PScav group(s)...done.
+[Info   :DanW-QuestingBots] Setting objective for Гиви Секач (Name: Bot66, Level: 1) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Гиви Секач (Name: Bot66, Level: 1) is now doing Step #1 for objective Tarbank Upstairs: Objective #1 in quest Tarbank Upstairs
+[Warning:DanW-QuestingBots] Bot Гиви Секач (Name: Bot66, Level: 1) cannot find a complete path to its objective (Step #1 for objective Tarbank Upstairs: Objective #1 in quest Tarbank Upstairs). Giving up. Remaining distance to objective: 12.78283
+[Info   :DanW-QuestingBots] Bot Гиви Секач (Name: Bot66, Level: 1) has failed Step #1 for objective Tarbank Upstairs: Objective #1 in quest Tarbank Upstairs
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Info   :DanW-QuestingBots] Initial spawn type for bot Платон Додик (Name: Bot67, Level: 1): assault
+[Info   :DanW-QuestingBots] Spawned bot #43: Платон Додик (Name: Bot67, Level: 1) (Savage)
+[Info   :DanW-QuestingBots] Setting objective for Платон Додик (Name: Bot67, Level: 1) (Brain type: PMC)...
+[Info   :DanW-QuestingBots] Bot Платон Додик (Name: Bot67, Level: 1) is now doing Step #1 for objective Olive Restaurant: Objective #6 in quest Olive Restaurant
+[Info   :DanW-QuestingBots] Bot Гиви Секач (Name: Bot66, Level: 1) is now doing Step #1 for objective Tarbank Upstairs: Objective #3 in quest Tarbank Upstairs
+[Error  :LootingBots] ([assault] Bot67) Has been stuck trying to reach: Оружейный ящик. Ignoring
+[Error  :LootingBots] ([pmcBot] Bot65) Failed to move Штык-нож ER FULCRUM BAYONET to 2
+[Error  :LootingBots] ([assault] Bot55) Has been stuck trying to reach: Труп Дикого. Ignoring
+[Error  :LootingBots] ([pmcBot] Bot66) Failed to move Штык-нож ER FULCRUM BAYONET to Ножны
+[Error  :LootingBots] ([pmcBot] Bot66) Failed to move Штык-нож ER FULCRUM BAYONET to main
+[Info   :DanW-QuestingBots] Bot Витек Якубович (Name: Bot65, Level: 1) has completed Step #1 for objective TerraGroup Garage: Objective #1 in quest TerraGroup Garage
+[Info   :DanW-QuestingBots] Bot Гиви Секач (Name: Bot66, Level: 1) has completed Step #1 for objective Tarbank Upstairs: Objective #3 in quest Tarbank Upstairs
+[Error  :LootingBots] ([assault] Bot60) Has been stuck trying to reach: Гранатный ящик. Ignoring
+[Info   :DanW-QuestingBots] Bot Витек Якубович (Name: Bot65, Level: 1) is now doing Step #1 for objective TerraGroup Garage: Objective #2 in quest TerraGroup Garage
+[Warning:DanW-QuestingBots] Петька Денди (Name: Bot63, Level: 1) is stuck. Trying to vault...
+[Info   :DanW-QuestingBots] Bot Гиви Секач (Name: Bot66, Level: 1) is now doing Step #2 for objective Tarbank Upstairs: Objective #3 in quest Tarbank Upstairs
+[Error  :LootingBots] ([assault] Bot42) Has been stuck trying to reach: Труп Дикого. Ignoring
+[Info   :DanW-QuestingBots] Bot Гиви Секач (Name: Bot66, Level: 1) has completed Step #2 for objective Tarbank Upstairs: Objective #3 in quest Tarbank Upstairs
+[Error  :LootingBots] ([assault] Bot53) Failed to move Штык-нож Изделие 6Х5 to 10
+[Info   :DanW-QuestingBots] Bot Гиви Секач (Name: Bot66, Level: 1) is now doing Step #3 for objective Tarbank Upstairs: Objective #3 in quest Tarbank Upstairs
+[Warning:DanW-QuestingBots] Петька Денди (Name: Bot63, Level: 1) is stuck. Trying to vault...
+[Info   :DanW-QuestingBots] Bot Гиви Секач (Name: Bot66, Level: 1) has completed Step #3 for objective Tarbank Upstairs: Objective #3 in quest Tarbank Upstairs
+[Warning:DanW-QuestingBots] Петька Денди (Name: Bot63, Level: 1) is stuck. Trying to vault...
+[Info   :DanW-QuestingBots] Bot Витек Якубович (Name: Bot65, Level: 1) has completed Step #1 for objective TerraGroup Garage: Objective #2 in quest TerraGroup Garage
+[Warning:DanW-QuestingBots] Петька Денди (Name: Bot63, Level: 1) is stuck. Trying to vault...
+[Info   :DanW-QuestingBots] Bot Гиви Секач (Name: Bot66, Level: 1) is now doing Step #1 for objective Tarbank Upstairs: Objective #4 in quest Tarbank Upstairs
+[Info   :DanW-QuestingBots] Bot Витек Якубович (Name: Bot65, Level: 1) is now doing Step #2 for objective TerraGroup Garage: Objective #2 in quest TerraGroup Garage
+[Error  :LootingBots] ([assault] Bot48) Has been stuck trying to reach: Труп Дикого. Ignoring
+[Info   :DanW-QuestingBots] Bot Витек Якубович (Name: Bot65, Level: 1) has completed Step #2 for objective TerraGroup Garage: Objective #2 in quest TerraGroup Garage
+[Warning:DanW-QuestingBots] Петька Денди (Name: Bot63, Level: 1) is stuck. Trying to vault...
+[Info   :DanW-QuestingBots] Bot Гиви Секач (Name: Bot66, Level: 1) has completed Step #1 for objective Tarbank Upstairs: Objective #4 in quest Tarbank Upstairs
+[Warning:DanW-QuestingBots] Петька Денди (Name: Bot63, Level: 1) is stuck. Trying to vault...
+[Info   :DanW-QuestingBots] Bot Витек Якубович (Name: Bot65, Level: 1) is now doing Step #3 for objective TerraGroup Garage: Objective #2 in quest TerraGroup Garage
+[Info   :DanW-QuestingBots] Bot Гиви Секач (Name: Bot66, Level: 1) is now doing Step #2 for objective Tarbank Upstairs: Objective #4 in quest Tarbank Upstairs
+[Warning:DanW-QuestingBots] Петька Денди (Name: Bot63, Level: 1) is stuck. Trying to vault...
+[Info   :DanW-QuestingBots] Bot Гиви Секач (Name: Bot66, Level: 1) has completed Step #2 for objective Tarbank Upstairs: Objective #4 in quest Tarbank Upstairs
+[Info   :DanW-QuestingBots] Bot Гиви Секач (Name: Bot66, Level: 1) is now doing Step #3 for objective Tarbank Upstairs: Objective #4 in quest Tarbank Upstairs
+[Warning:DanW-QuestingBots] Петька Денди (Name: Bot63, Level: 1) is stuck. Trying to vault...
+[Warning:DanW-QuestingBots] Петька Денди (Name: Bot63, Level: 1) is stuck. Trying to vault...
+[Warning:DanW-QuestingBots] Петька Денди (Name: Bot63, Level: 1) is stuck. Trying to vault...
+[Error  :LootingBots] ([pmcBot] Bot67) Failed to move Штык-нож ER FULCRUM BAYONET to Ножны
+[Info   :DanW-QuestingBots] Bot Витек Якубович (Name: Bot65, Level: 1) has completed Step #3 for objective TerraGroup Garage: Objective #2 in quest TerraGroup Garage
+[Warning:DanW-QuestingBots] Петька Денди (Name: Bot63, Level: 1) is stuck. Trying to vault...
+[Info   :DanW-QuestingBots] Bot Витек Якубович (Name: Bot65, Level: 1) is now doing Step #1 for objective TerraGroup Office Camping: Objective #1 in quest TerraGroup Office Camping
+[Warning:DanW-QuestingBots] Гиви Секач (Name: Bot66, Level: 1) is stuck. Trying to jump...
+[Info   :DanW-QuestingBots] Bot Гиви Секач (Name: Bot66, Level: 1) cannot find a complete path to its objective (Step #3 for objective Tarbank Upstairs: Objective #4 in quest Tarbank Upstairs). Trying anyway. Distance from end of path to objective: 0
+[Error  :LootingBots] ([assault] Bot48) Has been stuck trying to reach: Ящик с инструментами. Ignoring
+[Warning:DanW-QuestingBots] Петька Денди (Name: Bot63, Level: 1) is stuck. Trying to vault...
+[Warning:DanW-QuestingBots] Петька Денди (Name: Bot63, Level: 1) is stuck. Trying to vault...
+[Warning:DanW-QuestingBots] Петька Денди (Name: Bot63, Level: 1) is stuck. Trying to vault...
+[Error  :LootingBots] ([assault] Bot48) Has been stuck trying to reach: Труп Дикого. Ignoring
+[Info   :DanW-QuestingBots] Bot Платон Додик (Name: Bot67, Level: 1) has completed Step #1 for objective Olive Restaurant: Objective #6 in quest Olive Restaurant
+[Info   :CoopHandler] F8 pressed, attempting to extract!
+[Info   :Fika.Server] ..:: Fika Server Session Statistics ::..
+[Info   :Fika.Server] Sent packets: 0
+[Info   :Fika.Server] Sent data: 0 B
+[Info   :Fika.Server] Received packets: 0
+[Info   :Fika.Server] Received data: 0 B
+[Info   :Fika.Server] Packet loss: 0%
+[Info   :NetManagerUtils] Destroyed FikaServer

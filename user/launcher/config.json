@@ -1,0 +1,17 @@
+{
+  "FirstRun": false,
+  "DefaultLocale": "Russian",
+  "LauncherStartGameAction": 0,
+  "UseAutoLogin": true,
+  "IsDevMode": true,
+  "GamePath": "E:\\SPT",
+  "ExcludeFromCleanup": [],
+  "Server": {
+    "AutoLoginCreds": {
+      "Username": "Skippie",
+      "Password": ""
+    },
+    "Name": "SPT",
+    "Url": "https://31.207.77.191:6969"
+  }
+}
